@@ -12,13 +12,29 @@
 {% endtab %}
 {% endtabs %}
 
-![ ](../.gitbook/assets/049.png)
+![ ](../.gitbook/assets/056.png)
 
-![](../.gitbook/assets/050.png)
+* [ ] 튜닝 방법
 
 {% tabs %}
-{% tab title="6-1 링크" %}
+{% tab title="링크" %}
 [https://github.com/ntrexlab/MOTOR\_GAIN.git](https://github.com/ntrexlab/MOTOR_GAIN.git)
 {% endtab %}
 {% endtabs %}
+
+* UI를 켜서 Load from File을 클릭합니다.
+
+![ ](../.gitbook/assets/053.png)
+
+* 다운로드 받은 프로파일 셋업 파일을 클릭 후 열기를 클릭합니다.
+
+![ ](../.gitbook/assets/054.png)
+
+* Write Configurations를 클릭 후 Save to Fla sh 클릭합니다.
+
+![ ](../.gitbook/assets/055.png)
+
+
+
+
 
