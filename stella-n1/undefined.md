@@ -1,3 +1,7 @@
+---
+description: STELLA N1 치수입니다.
+---
+
 # 치수 및 외관
 
 * [ ] FRONT VIEW

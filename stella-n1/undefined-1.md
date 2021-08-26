@@ -1,3 +1,7 @@
+---
+description: STELLA N1 제원입니다.
+---
+
 # 제원
 
 |   |   |
