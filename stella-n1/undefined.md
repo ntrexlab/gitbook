@@ -1,7 +1,3 @@
----
-description: .
----
-
 # 치수 및 외관
 
 * [ ] FRONT VIEW
