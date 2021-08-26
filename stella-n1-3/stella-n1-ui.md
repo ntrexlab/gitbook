@@ -1,7 +1,3 @@
----
-description: STELLA N1 UI 이용 구동 메뉴얼입니다.
----
-
 # STELLA N1 UI 이용 구동
 
 * STELLA N1에서는 UI를 이용하여 Raspberry Pi 또는 Jetson Nano 임베디드 장치와의 통신을 통해 위에서 기술된 STELLA 구동 및 SLAM, Navigation, Teleoperation 기능을 이용할 수 있습니다.

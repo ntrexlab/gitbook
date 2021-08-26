@@ -1,7 +1,3 @@
----
-description: STELLA N1 UI 이용 Navigation 메뉴얼입니다.
----
-
 # STELLA UI 실행 - Navigation
 
 * UI 상의 Navigation 버튼을 이용하여 Navigation 기능을 이용할 수 있습니다.

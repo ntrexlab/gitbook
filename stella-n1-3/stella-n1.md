@@ -1,7 +1,3 @@
----
-description: STELLA N1 구동 확인 메뉴얼입니다.
----
-
 # STELLA N1 구동
 
 * [ ] roscore 실행
