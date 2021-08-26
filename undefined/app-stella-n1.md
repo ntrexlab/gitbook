@@ -1,3 +1,7 @@
+---
+description: App 이용하여 STELLA N1 구동 메뉴얼입니다.
+---
+
 # App 이용하여 STELLA N1 구동
 
 * STELLA N1에 HC-06 통신 모듈을 이용하여 Raspberry Pi 또는 Jetson Nano 임베디드 장치에서 App와 Bluetooth 무선 통신을 하여 STELLA N1을 조작 할 수 있습니다.

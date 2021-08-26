@@ -1,3 +1,7 @@
+---
+description: STELLA N1 Navigation 메뉴얼입니다.
+---
+
 # STELLA N1 Navigation
 
 * 완성된 지도를 이용하여 지도 내에 원하는 목적지로 주행하는 기능을 사용합니다.
