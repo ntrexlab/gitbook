@@ -1,3 +1,7 @@
+---
+description: STELLA N1 부품 사진과 스펙입니다.
+---
+
 # 중요 부품
 
 * [ ] DC MOTOR
