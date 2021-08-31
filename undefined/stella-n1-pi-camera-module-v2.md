@@ -54,3 +54,21 @@ cd ~/catkin_ws/
 catkin_make
 ```
 
+* 하기의 명령어를 통해 STELLA\_UI\_CAMERA를 실행합니다. 
+
+```text
+roslaunch stella_ui_camera stella_ui_camera.launch
+```
+
+![](../.gitbook/assets/060.png)
+
+* 기의 그림에 표시되어 있는 부분을 통하여, Remote PC와 Robot\(STELLA N1\)의 IP,
+
+   Robot의 ID와 패스워드를 입력한 후, Camera Connect 버튼을 클릭합니다. 
+
+![](../.gitbook/assets/061.png)
+
+* 충분한 시간이 흐른 후 Camera Show 버튼을 클릭하면, 카메라 영상을 받아보실 수 있습니다.
+
+![](../.gitbook/assets/062.png)
+
