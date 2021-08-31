@@ -37,4 +37,5 @@
 * [모터 게인 확인 및 수정](undefined/undefined.md)
 * [전원보드 배터리 컷 오프](undefined/undefined-1.md)
 * [STELLA N1 Pi Camera 설정](undefined/stella-n1-pi-camera.md)
+* [STELLA N1 Pi Camera Module V2 설치 및 구동하기](undefined/stella-n1-pi-camera-module-v2.md)
 
