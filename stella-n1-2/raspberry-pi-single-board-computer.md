@@ -135,7 +135,7 @@ source ~/.bashrc
 
 ```text
 sudo raspi-config
-    -> 7 Advanced Options를 선택
+    -> 6 Advanced Options를 선택
     -> A1 Expand Filesystem을 선택
 ```
 
