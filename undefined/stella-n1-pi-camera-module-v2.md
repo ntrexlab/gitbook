@@ -42,7 +42,7 @@ rqt_image_vies /camera
 
 ![](../.gitbook/assets/059.png)
 
-* [ ] UI 이용 camera 실
+* [ ] UI 이용 camera 실행 
 * camera 기능이 추가된 UI를 다운로드 후, 컴파일을 진행합니다.
 
 ```text
