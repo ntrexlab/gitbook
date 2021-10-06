@@ -19,12 +19,14 @@
 ## STELLA N1 관련 설정 <a id="stella-n1-2"></a>
 
 * [원격 PC 설정](stella-n1-2/pc/README.md)
-  * [원격 PC 설정 \(ROS1\)](stella-n1-2/pc/pc-ros1.md)
-  * [원격 PC 설정 \(ROS2\)](stella-n1-2/pc/untitled.md)
+  * [ROS 1 - 원격 PC 설정](stella-n1-2/pc/pc-ros1.md)
+  * [ROS 2 - 원격 PC 설정](stella-n1-2/pc/untitled.md)
 * [Raspberry Pi\(Single Board Computer\) 설정](stella-n1-2/raspberry-pi-single-board-computer/README.md)
-  * [Raspberry Pi\(Single Board Computer\) 설정](stella-n1-2/raspberry-pi-single-board-computer/untitled-1.md)
-  * [Raspberry Pi\(Single Board Computer\) 설정](stella-n1-2/raspberry-pi-single-board-computer/untitled.md)
-* [JetsonNano\(Single Board Computer\) 설정](stella-n1-2/untitled.md)
+  * [ROS 1 - Raspberry Pi\(Single Board Computer\) 설정](stella-n1-2/raspberry-pi-single-board-computer/untitled-1.md)
+  * [ROS 2 - Raspberry Pi\(Single Board Computer\) 설정](stella-n1-2/raspberry-pi-single-board-computer/untitled.md)
+* [JetsonNano\(Single Board Computer\) 설정](stella-n1-2/untitled/README.md)
+  * [ROS 1 - JetsonNano\(Single Board Computer\) 설정](stella-n1-2/untitled/ros-1-jetsonnano-single-board-computer.md)
+  * [ROS 2 - JetsonNano\(Single Board Computer\) 설정](stella-n1-2/untitled/ros-2-jetsonnano-single-board-computer.md)
 
 ## STELLA N1 작동 <a id="stella-n1-3"></a>
 

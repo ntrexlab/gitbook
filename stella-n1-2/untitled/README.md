@@ -99,11 +99,11 @@ ls -la /dev/
 
 * [ ] Jetson Nano 네트워크 설정하기
 
-![ ](../.gitbook/assets/015.png)
+![ ](../../.gitbook/assets/015.png)
 
 * 터미널 프롬프터에 ifconfig를 입력하여 Jetson Nano의 네트워크 IP 주소를 확인합니다.
 
-![ ](../.gitbook/assets/020.png)
+![ ](../../.gitbook/assets/020.png)
 
 * IP 주소 확인 후, ~/.bashrc 파일을 수정하여 아래와 같이 ROS\_MASTER와 ROS\_HOSTNAME을 확인된 Jetson Nano의 IP로 설정합니다.
 
@@ -113,7 +113,7 @@ sudo vim ~/.bashrc  # 마지막 줄에 아래 코드 추가
     export ROS_HOSTNAME=[Jetson Nano의 ip주소]
 ```
 
-![ ](../.gitbook/assets/021.png)
+![ ](../../.gitbook/assets/021.png)
 
 * source 명령어를 터미널에 입력하여 ~/.bashrc 파일 업데이트합니다.
 

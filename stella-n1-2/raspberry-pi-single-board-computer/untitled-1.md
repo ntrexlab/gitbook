@@ -4,7 +4,7 @@ description: >-
   Nano 설정을 참고 해주시면 됩니다.
 ---
 
-# Raspberry Pi\(Single Board Computer\) 설정
+# ROS 1 - Raspberry Pi\(Single Board Computer\) 설정
 
 * [ ] single Board Computer 모델 확인하기
 * STELLA N1 – Raspberry Pi 버전에는 Raspberry Pi 4 Model B\(SBC\)가 기본적으로 구성되어 있습니다. 해당 SBC도 원격 PC와 동일하게 ROS 및 STELLA 라이브러리 설정이 필요합니다.
