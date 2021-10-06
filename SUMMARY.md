@@ -45,7 +45,9 @@
 * [STELLA UI 실행 - SLAM](stella-n1-3/stella-ui-slam/README.md)
   * [ROS 1 - STELLA UI 실행 - SLAM](stella-n1-3/stella-ui-slam/ros-1-stella-ui-slam.md)
   * [ROS 2 - STELLA UI 실행 - SLAM \(예정\)](stella-n1-3/stella-ui-slam/ros-2-stella-ui-slam.md)
-* [STELLA UI 실행 - Navigation](stella-n1-3/stella-ui-navigation.md)
+* [STELLA UI 실행 - Navigation](stella-n1-3/stella-ui-navigation/README.md)
+  * [ROS 1 - STELLA UI 실행 - Navigation](stella-n1-3/stella-ui-navigation/ros-1-stella-ui-navigation.md)
+  * [ROS 2 - STELLA UI 실행 - Navigation \(예정\)](stella-n1-3/stella-ui-navigation/ros-2-stella-ui-navigation.md)
 
 ## 부 록
 
