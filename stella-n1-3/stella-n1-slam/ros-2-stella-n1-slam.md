@@ -4,19 +4,11 @@
 
 
 
-* [ ] roscore 실행 
-
-```text
-roscore
-```
-
-
-
 * [ ] STELLA N1 구동 파일 실행 
 * SSH를 이용하여 STELLA N1 SBC로 원격 접속하여 하기의 명령어를 실행합니다.
 
 ```text
-(SSH 접속 후) roslaunch stella_bringup stella_robot.launch
+(SSH 접속 후) ros2 launch stella_bringup robot.launch.py
 ```
 
 
@@ -24,7 +16,7 @@ roscore
 * [ ] SLAM 노드 실행
 
 ```text
-roslaunch stella_slam stella_slam.launch
+ros2 launch stella_cartographer cartographer.launch.py
 ```
 
 ![ ](../../.gitbook/assets/024.png)
@@ -32,7 +24,7 @@ roslaunch stella_slam stella_slam.launch
 * [ ] 키보드 조작을 통해 주행과 함께 주변 환경 매핑\(mapping\)
 
 ```text
-roslaunch stella_teleop stella_teleop_key.launch
+ros2 run stella_teleop teleop_keyboard
 ```
 
 
@@ -41,7 +33,7 @@ roslaunch stella_teleop stella_teleop_key.launch
 * Map\_Server를 이용하여 지도를 저장합니다. 저장된 지도는 /home// 경로에 map.pgm, map.yaml로 저장됩니다.
 
 ```text
-rosrun map_server map_saver -f ~/map
+ros2 run nav2_map_server map_saver_cli -f ~/map
 ```
 
 
