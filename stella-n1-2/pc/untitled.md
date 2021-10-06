@@ -74,36 +74,3 @@ colcon build --symlink-install
 
 
 
-* [ ] 네트워크 설정하기
-
-![ ](../../.gitbook/assets/015%20%281%29.png)
-
-* 터미널 프롬프터에 ifconfig를 아래와 같이 입력하여 원격 컴퓨터의 네트워크 IP 주소를 확인합니다.
-
-```text
-ifconfig
-```
-
-![ ](../../.gitbook/assets/016.png)
-
-* IP 주소 확인 후, ~/.bashrc 파일을 수정하여 아래와 같이 ROS\_MASTER와 ROS\_HOSTNAME을 확인한 원격 PC의 IP로 설정합니다.
-
-```text
-sudo gedit ~/.bashrc #마지막 줄에 아래 코드 추가
- export ROS_MASTER_URI=http://[원격 PC의 ip주소]:11311 
- export ROS_HOSTNAME=[원격 PC의 ip주소]
-```
-
-![](../../.gitbook/assets/017.png)
-
-* [ ] 설정 업데이트
-* 상기와 같이 설정하신 후 아래의 명령어를 터미널 프롬프터에 입력하여 변경된 부분들을 컴퓨터에 업데이트 합니다.
-
-```text
-source ~/.bashrc
-cd catkin_ws
-source devel/setup.bash
-```
-
-
-
