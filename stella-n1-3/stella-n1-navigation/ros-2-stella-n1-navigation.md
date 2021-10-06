@@ -1,4 +1,4 @@
-# STELLA N1 Navigation
+# ROS 2 - STELLA N1 Navigation
 
 * 완성된 지도를 이용하여 지도 내에 원하는 목적지로 주행하는 기능을 사용합니다.
 
@@ -28,14 +28,10 @@ roscore
 roslaunch stella_navigation stella_navigation.launch map_file:=$HOME/map.yaml
 ```
 
-![ ](../.gitbook/assets/025.png)
+![ ](../../.gitbook/assets/025.png)
 
 * [ ] Navigation 기능을 이용하여 목적지 이동 
 * 저장된 지도와 STELLA N1의 위치가 UI와 같은 rviz 프로그램 창에서 나타납니다.
 * Rviz 상단에 위치한 2D Pose Estimate 버튼을 누르고 STELLA의 실제 위치에 놓은 후, 더 정확한 위치 추정을 위해 키보드를 사용하여 주변을 이동하며 localization을 수행합니다.
 * 상단에 위치한 2D Nav Goal 버튼을 누르고 목적지를 클릭하여 STELLA N1을 이동시킵니다.
-
-
-
-
 
