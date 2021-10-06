@@ -48,28 +48,28 @@ $ sudo apt-get install ros-foxy-cartographer ros-foxy-cartographer-ros ros-foxy-
 ![ ](../../.gitbook/assets/014.png)
 
 * [ ] STELLA N1 라이브러리 설치하기
-* 우선, STELLA 라이브러리 설치를 위해 ROS Workspace 폴더를 생성합니다.
+* 우선, STELLA 라이브러리 설치를 위해 ROS 2 Workspace 폴더를 생성합니다.
 
 {% tabs %}
-{% tab title="ROS.org" %}
-[http://wiki.ros.org/catkin/Tutorials/create\_a\_workspace](http://wiki.ros.org/catkin/Tutorials/create_a_workspace)
+{% tab title="ROS2.org" %}
+[http://docs.ros.org/en/rolling/Tutorials/Workspace/Creating-A-Workspace.html](http://docs.ros.org/en/rolling/Tutorials/Workspace/Creating-A-Workspace.html)
 {% endtab %}
 {% endtabs %}
 
-* 일반적으로 사용하는 Workspace 이름인 catkin\_ws를 기준으로, catkin\_ws에 진입하여 git clone을 통해 Stella 라이브러리 다운로드 합니다.
+* 일반적으로 사용하는 Workspace 이름인 colcon\_ws를 기준으로, colcon\_ws에 진입하여 git clone을 통해 Stella 라이브러리 다운로드 합니다.
 
 ```text
-cd ~/catkin_ws/src/
-git clone https://github.com/ntrexlab/STELLA_REMOTE_PC.git
+cd ~/colcon_ws/src/
+git clone https://github.com/ntrexlab/STELLA_REMOTE_PC_ROS2.git
 ```
 
 * 다운로드 된 라이브러리는 catkin\_make를 통해 컴파일 합니다.
 
 ```text
-cd ~/catkin_ws/src/STELLA_REMOTE_PC/stella_teleop/src/
-chmod +x stella_teleop_key.py
-cd ~/catkin_ws
-catkin_make
+cd ~/colcon_ws/src/STELLA_REMOTE_PC_ROS2/stella_teleop/stella_teleop/script/
+chmod +x teleop_keyboard.py
+cd ~/colcon_ws
+colcon build --symlink-install
 ```
 
 

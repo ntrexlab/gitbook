@@ -7,7 +7,7 @@ description: >-
 # ROS 2 - Raspberry Pi\(Single Board Computer\) 설정
 
 * [ ] single Board Computer 모델 확인하기
-* STELLA N1 – Raspberry Pi 버전에는 Raspberry Pi 4 Model B\(SBC\)가 기본적으로 구성되어 있습니다. 해당 SBC도 원격 PC와 동일하게 ROS 및 STELLA 라이브러리 설정이 필요합니다.
+* STELLA N1 – Raspberry Pi 버전에는 Raspberry Pi 4 Model B\(SBC\)가 기본적으로 구성되어 있습니다. 해당 SBC도 원격 PC와 동일하게 ROS 2 및 STELLA 라이브러리 설정이 필요합니다.
 * STELLA N1 구매 시, 제공하는 Raspberry Pi를 사용하실 경우 기본적으로 하기와 같은 과정이 전부 작업된 Raspberry Pi OS가 탑재되어 제공됩니다.
 * OS 재 설치가 필요하신 경우 하기의 링크에서 IMG 파일을 재 설치 합니다.
 
@@ -39,14 +39,14 @@ description: >-
 sudo apt-get update && sudo apt-get upgrade
 ```
 
-* [ ] Raspberry Pi OS 내 ROS 설치
-* 다음 명령어를 이용하여 Raspberry Pi OS 내 ROS를 설치합니다. 다음 방법을 이용할 경우 STELLA N1 라이브러리 설치부터  이어서 진행합니다.
+* [ ] Raspberry Pi OS 내 ROS 2 설치
+* 다음 명령어를 이용하여 Raspberry Pi OS 내 ROS 2를 설치합니다. 다음 방법을 이용할 경우 STELLA N1 라이브러리 설치부터  이어서 진행합니다.
 
 ```text
-wget https://raw.githubusercontent.com/ntrexlab/ROS_INSTALL_SCRIPT/main/install_ros_melodic_rp4.sh && chmod 755 ./install_ros_melodic_rp4.sh && bash ./install_ros_melodic_rp4.sh
+wget https://raw.githubusercontent.com/ntrexlab/ROS_INSTALL_SCRIPT/main/install_ros2_foxy_rp4.sh && chmod 755 ./install_ros2_foxy_rp4.sh && bash ./install_ros2_foxy_rp4.sh
 ```
 
-* 위 명령어를 이용하지 않고 직접 Raspberry Pi OS 내 ROS를 설치하실 경우, 하기의 링크를 참고하여 설치합니다.
+* 위 명령어를 이용하지 않고 직접 Raspberry Pi OS 내 ROS 2를 설치하실 경우, 하기의 링크를 참고하여 설치합니다.
 
 {% tabs %}
 {% tab title="사이트" %}
@@ -67,7 +67,7 @@ sudo ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release 
 ```
 
 * [ ] STELLA N1 라이브러리 설치
-* ROS workspace 사이트 참조하여 만듭니다.
+* ROS 2 workspace 사이트 참조하여 만듭니다.
 
 {% tabs %}
 {% tab title="사이트 " %}
