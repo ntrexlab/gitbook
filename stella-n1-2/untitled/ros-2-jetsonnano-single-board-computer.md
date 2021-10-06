@@ -63,9 +63,9 @@ sudo apt-get install ros-melodic-tf
 * ROS workspace를 만든 후\(원격 컴퓨터 설정 ⑤ 참조\), STELLA N1 라이브러리 다운로드 및 컴파일을 진행합니다.
 
 ```text
-cd ~/catkin_ws/src
-git clone https://github.com/ntrexlab/STELLA_JETSON_NANO.git
-cd ~/catkin_ws/src/STELLA_JETSON_NANO/stella_teleop_bluetooth/src/
+cd ~/colcon_ws/src/
+git clone https://github.com/ntrexlab/STELLA_JETSON_NANO_ROS2.git
+cd ~/colcon_ws/src/STELLA_JETSON_NANO_ROS2/stella_teleop_bluetooth/stella_teleop_bluetooth/script
 chmod +x stella_teleop_bluetooth.py
 ```
 
@@ -73,8 +73,8 @@ chmod +x stella_teleop_bluetooth.py
 * 패키지 컴파일을 진행합니다.
 
 ```text
-cd ~/catkin_ws/
-catkin_make
+cd ~/colcon_ws
+colcon build --symlink-install
 ```
 
 * [ ] Serial 통신 설치
@@ -82,7 +82,7 @@ catkin_make
 * 하기의 명령어를 입력하여 USB 포트 설정합니다.
 
 ```text
-cd ~/catkin_ws/src/STELLA_JETSON_NANO/stella_bringup
+cd ~/catkin_ws/src/STELLA_JETSON_NANO_ROS2/stella_bringup
 sh create_udev_rules.sh
 ls -la /dev/ 
 ```
