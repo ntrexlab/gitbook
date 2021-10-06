@@ -41,7 +41,7 @@ sudo apt-get update && sudo apt-get upgrade
   STELLA N1 라이브러리 설치부터 이어서 진행합니다.
 
 ```text
-wget https://raw.githubusercontent.com/ntrexlab/ROS_INSTALL_SCRIPT/main/install_ros_melodic.sh&& chmod 755 ./install_ros_melodic.sh && bash ./install_ros_melodic.sh
+wget https://raw.githubusercontent.com/ntrexlab/ROS_INSTALL_SCRIPT/main/install_ros2_foxy.sh&& chmod 755 ./install_ros2_foxy.sh && bash ./install_ros2_foxy.sh
 ```
 
 * 위 명령어를 이용하지 않고 직접 Ubuntu 18.04 내 ROS를 설치하실 경우, 하기의 링크를 참고하여 설치합니다.
