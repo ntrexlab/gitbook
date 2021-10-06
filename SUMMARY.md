@@ -20,7 +20,7 @@
 
 * [원격 PC 설정](stella-n1-2/pc/README.md)
   * [원격 PC 설정 \(ROS1\)](stella-n1-2/pc/pc-ros1.md)
-  * [Untitled](stella-n1-2/pc/untitled.md)
+  * [원격 PC 설정 \(ROS2\)](stella-n1-2/pc/untitled.md)
 * [Raspberry Pi\(Single Board Computer\) 설정](stella-n1-2/raspberry-pi-single-board-computer.md)
 * [JetsonNano\(Single Board Computer\) 설정](stella-n1-2/untitled.md)
 

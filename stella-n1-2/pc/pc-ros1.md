@@ -4,8 +4,6 @@ description: STELLA N1은 ROS 기반으로 구성된 자율주행 연구용 플�
 
 # 원격 PC 설정 \(ROS1\)
 
- 
-
 * [ ] 원격 PC에 Ubuntu 설치하기
 * STELLA N1은 Ubuntu 18.04 LTS 버전을 기준으로 제작되었습니다. STELLA N1을 조정할 원격 컴퓨터에서 Ubuntu 18.04 LTS 버전 설치를 권장 드립니다. Ubuntu 설치는 하기의 링크를 참고하여 설치합니다.
 
