@@ -36,7 +36,7 @@ wget https://raw.githubusercontent.com/ntrexlab/ROS_INSTALL_SCRIPT/main/install_
 * 바탕화면에서 Ctrl + Alt + t를 눌러 Terminal에서 roscore 입력합니다.
 * roscore 입력 시 하기의 그림과 같이 동작되면 정상적으로 작동함을 확인할 수 있습니다.
 
-![ ](../.gitbook/assets/013.png)
+![ ](../../.gitbook/assets/013.png)
 
 * [ ] STELLA N1  필수 ROS Package 설치하기
 * Ubuntu 터미널에 apt-get install 명령어를 사용하여 패키지를 설치합니다.
@@ -45,7 +45,7 @@ wget https://raw.githubusercontent.com/ntrexlab/ROS_INSTALL_SCRIPT/main/install_
 $ sudo apt-get install ros-melodic-teleop-twist-keyboard ros-melodic-amcl ros-melodic-map-server ros-melodic-move-base ros-melodic-urdf ros-melodic-xacro ros-melodic-rqt-image-view ros-melodic-navigation ros-melodic-cartographer*
 ```
 
-![ ](../.gitbook/assets/014.png)
+![ ](../../.gitbook/assets/014.png)
 
 * [ ] STELLA N1 라이브러리 설치하기
 * 우선, STELLA 라이브러리 설치를 위해 ROS Workspace 폴더를 생성합니다.
@@ -76,7 +76,7 @@ catkin_make
 
 * [ ] 네트워크 설정하기
 
-![ ](../.gitbook/assets/015%20%281%29.png)
+![ ](../../.gitbook/assets/015%20%281%29.png)
 
 * 터미널 프롬프터에 ifconfig를 아래와 같이 입력하여 원격 컴퓨터의 네트워크 IP 주소를 확인합니다.
 
@@ -84,7 +84,7 @@ catkin_make
 ifconfig
 ```
 
-![ ](../.gitbook/assets/016.png)
+![ ](../../.gitbook/assets/016.png)
 
 * IP 주소 확인 후, ~/.bashrc 파일을 수정하여 아래와 같이 ROS\_MASTER와 ROS\_HOSTNAME을 확인한 원격 PC의 IP로 설정합니다.
 
@@ -94,7 +94,7 @@ sudo gedit ~/.bashrc #마지막 줄에 아래 코드 추가
  export ROS_HOSTNAME=[원격 PC의 ip주소]
 ```
 
-![](../.gitbook/assets/017.png)
+![](../../.gitbook/assets/017.png)
 
 * [ ] 설정 업데이트
 * 상기와 같이 설정하신 후 아래의 명령어를 터미널 프롬프터에 입력하여 변경된 부분들을 컴퓨터에 업데이트 합니다.
