@@ -27,7 +27,7 @@
 {% endtab %}
 {% endtabs %}
 
-* Ubuntu 18.04 설치 후 하기의 명령어를 통해 최신 버전으로 업데이트합니다.
+* Ubuntu 20.04 설치 후 하기의 명령어를 통해 최신 버전으로 업데이트합니다.
 
 ```text
 sudo apt-get update && sudo apt-get upgrade
@@ -35,8 +35,8 @@ sudo apt-get update && sudo apt-get upgrade
 
 
 
-* [ ] Ubuntu 18.04 LTS 내 ROS 설치
-* 다음 명령어를 이용하여 Ubuntu 18.04 내 ROS를 설치합니다. 다음 방법을 이용할 경우
+* [ ] Ubuntu 20.04 LTS 내 ROS 설치
+* 다음 명령어를 이용하여 Ubuntu 20.04 내 ROS를 설치합니다. 다음 방법을 이용할 경우
 
   STELLA N1 라이브러리 설치부터 이어서 진행합니다.
 
