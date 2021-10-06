@@ -28,11 +28,11 @@ wget https://raw.githubusercontent.com/ntrexlab/ROS_INSTALL_SCRIPT/main/install_
 
 {% tabs %}
 {% tab title="ROS 공식 사이트" %}
-[http://wiki.ros.org/melodic/installation/Ubuntu](http://wiki.ros.org/melodic/installation/Ubuntu)
+[http://docs.ros.org/en/rolling/Installation/Ubuntu-Install-Binary.html](http://docs.ros.org/en/rolling/Installation/Ubuntu-Install-Binary.html)
 {% endtab %}
 {% endtabs %}
 
-* [ ] ROS 설치 확인하기 
+* [ ] ROS 2 설치 확인하기 
 * 바탕화면에서 Ctrl + Alt + t를 눌러 Terminal에서 roscore 입력합니다.
 * roscore 입력 시 하기의 그림과 같이 동작되면 정상적으로 작동함을 확인할 수 있습니다.
 
