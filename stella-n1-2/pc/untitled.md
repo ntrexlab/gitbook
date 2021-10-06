@@ -38,11 +38,11 @@ wget https://raw.githubusercontent.com/ntrexlab/ROS_INSTALL_SCRIPT/main/install_
 
 ![ ](../../.gitbook/assets/013.png)
 
-* [ ] STELLA N1  필수 ROS Package 설치하기
+* [ ] STELLA N1  필수 ROS 2 Package 설치하기
 * Ubuntu 터미널에 apt-get install 명령어를 사용하여 패키지를 설치합니다.
 
 ```text
-$ sudo apt-get install ros-melodic-teleop-twist-keyboard ros-melodic-amcl ros-melodic-map-server ros-melodic-move-base ros-melodic-urdf ros-melodic-xacro ros-melodic-rqt-image-view ros-melodic-navigation ros-melodic-cartographer*
+$ sudo apt-get install ros-foxy-cartographer ros-foxy-cartographer-ros ros-foxy-navigation2 ros-foxy-nav2-bringup
 ```
 
 ![ ](../../.gitbook/assets/014.png)
