@@ -4,19 +4,11 @@
 
 
 
-* [ ] roscore 실행 
-
-```text
-roscore
-```
-
-
-
 * [ ] STELLA N1 구동 파일 실행 
 * SSH를 이용하여 STELLA N1 SBC로 원격 접속하여 하기의 명령어를 실행합니다.
 
 ```text
- (SSH 접속 후) roslaunch stella_bringup stella_robot.launch
+ (SSH 접속 후) ros2 launch stella_bringup robot.launch.py
 ```
 
 
@@ -25,7 +17,7 @@ roscore
 * 원격 PC에서 stella\_navigation을 실행합니다. 이 때, map\_file의 경로를 지정해주며 /home/ 위치에 $HOME/.yaml로 지정합니다.
 
 ```text
-roslaunch stella_navigation stella_navigation.launch map_file:=$HOME/map.yaml
+ros2 launch turtlebot3_navigation2 navigation2.launch.py map:=$HOME/map.yamll
 ```
 
 ![ ](../../.gitbook/assets/025.png)

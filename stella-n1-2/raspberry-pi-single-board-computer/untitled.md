@@ -106,30 +106,6 @@ ls -la /dev/
 
 
 
-* [ ] Raspberry Pi 네트워크 설정하기
-
-![ ](../../.gitbook/assets/015%20%281%29.png)
-
-* 터미널 프롬프터에 ifconfig를 입력하여 Raspberry Pi의 네트워크 IP 주소를 확인합니다.
-
-![ ](../../.gitbook/assets/018.png)
-
-* IP 주소 확인 후, ~/.bashrc 파일을 수정하여 아래와 같이 ROS\_MASTER와 ROS\_HOSTNAME을 확인된 Raspberry Pi의 IP로 설정합니다.
-
-```text
-sudo nano ~/.bashrc  # 마지막 줄에 아래 코드 추가
-  export ROS_MASTER_URI=http://[원격 PC의 ip주소]:11311
-  export ROS_HOSTNAME=[Raspberry Pi의 ip주소]
-```
-
-![ ](../../.gitbook/assets/019.png)
-
-* source 명령어를 터미널에 입력하여 ~/.bashrc 파일 업데이트합니다.
-
-```text
-source ~/.bashrc
-```
-
 * [ ] Raspberry Pi SD카드 설정
 * Raspberry Pi 내 장착되어 있는 SD카드 메모리를 전부 활용할 수 있도록 다음의 과정을 진행합니다.
 
