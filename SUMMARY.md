@@ -41,7 +41,7 @@
   * [ROS 2 - STELLA N1 Navigation](stella-n1-3/stella-n1-navigation/ros-2-stella-n1-navigation.md)
 * [STELLA N1 UI 이용 구동](stella-n1-3/stella-n1-ui/README.md)
   * [ROS 1 - STELLA N1 UI 이용 구동](stella-n1-3/stella-n1-ui/ros-1-stella-n1-ui.md)
-  * [ROS 2 - STELLA N1 UI 이용 구동](stella-n1-3/stella-n1-ui/ros-2-stella-n1-ui.md)
+  * [ROS 2 - STELLA N1 UI 이용 구동 \(예정\)](stella-n1-3/stella-n1-ui/ros-2-stella-n1-ui.md)
 * [STELLA UI 실행 - SLAM](stella-n1-3/stella-ui-slam/README.md)
   * [ROS 1 - STELLA UI 실행 - SLAM](stella-n1-3/stella-ui-slam/ros-1-stella-ui-slam.md)
   * [ROS 2 - STELLA UI 실행 - SLAM \(예정\)](stella-n1-3/stella-ui-slam/ros-2-stella-ui-slam.md)
@@ -51,7 +51,9 @@
 
 ## 부 록
 
-* [App 이용하여 STELLA N1 구동](undefined/app-stella-n1.md)
+* [App 이용하여 STELLA N1 구동](undefined/app-stella-n1/README.md)
+  * [ROS 1 - App 이용하여 STELLA N1 구동](undefined/app-stella-n1/ros-1-app-stella-n1.md)
+  * [ROS 2 - App 이용하여 STELLA N1 구동](undefined/app-stella-n1/ros-2-app-stella-n1.md)
 * [STELLA N1 Pi Camera Module V2 설치 및 구동하기](undefined/stella-n1-pi-camera-module-v2.md)
 * [모터 게인 확인 및 수정](undefined/undefined.md)
 * [전원보드 배터리 컷 오프](undefined/undefined-1.md)
