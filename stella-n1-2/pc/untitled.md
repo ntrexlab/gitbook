@@ -33,3 +33,14 @@ wget https://raw.githubusercontent.com/ntrexlab/ROS_INSTALL_SCRIPT/main/install_
 ```
 sudo apt-get install ros-foxy-cartographer ros-foxy-cartographer-ros ros-foxy-navigation2 ros-foxy-nav2-bringup
 ```
+
+* [ ] Ubuntu가 설치된 원격 PC에 라이브러리 설치하기&#x20;
+
+```
+cd ~/colcon_ws/src/
+git clone https://github.com/ntrexlab/STELLA_REMOTE_PC_ROS2.git
+cd ~/colcon_ws/src/STELLA_REMOTE_PC_ROS2/stella_teleop/stella_teleop/script/
+chmod +x teleop_keyboard.py
+cd ~/colcon_ws
+colcon build --symlink-install
+```
