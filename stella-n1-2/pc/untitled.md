@@ -34,6 +34,8 @@ wget https://raw.githubusercontent.com/ntrexlab/ROS_INSTALL_SCRIPT/main/install_
 sudo apt-get install ros-foxy-cartographer ros-foxy-cartographer-ros ros-foxy-navigation2 ros-foxy-nav2-bringup
 ```
 
+![](../../.gitbook/assets/063.png)
+
 * [ ] Ubuntu가 설치된 원격 PC에 라이브러리 설치하기&#x20;
 
 ```
