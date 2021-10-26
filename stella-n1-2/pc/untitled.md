@@ -25,3 +25,11 @@ wget https://raw.githubusercontent.com/ntrexlab/ROS_INSTALL_SCRIPT/main/install_
 ```
 
 * [ ] Ubuntu가 설치된 원격 PC에 패키지 설치하기&#x20;
+
+<!---->
+
+* Ubuntu 터미널에 apt-get install 명령어를 사용하여 패키지를 설치합니다.
+
+```
+sudo apt-get install ros-foxy-cartographer ros-foxy-cartographer-ros ros-foxy-navigation2 ros-foxy-nav2-bringup
+```
