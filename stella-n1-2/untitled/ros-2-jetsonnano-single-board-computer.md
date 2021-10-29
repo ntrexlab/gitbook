@@ -25,10 +25,6 @@
 {% tab title="사이트" %}
 [https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#intro	](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#intro)
 {% endtab %}
-
-{% tab title="Second Tab" %}
-
-{% endtab %}
 {% endtabs %}
 
 * [ ] Ubuntu 18.04 설치 후 하기의 명령어를 통해 최신 버전으로 업데이트합니다.
@@ -48,6 +44,8 @@ sudo gedit /etc/update-manager/release-upgrades
     > 맨 밑의 never를 lts로 수정
 ```
 
+![](../../.gitbook/assets/068.png)
+
 * 현재 시스템 패키지를 모두 업데이트하고 불필요한 패키지를 제거합니다.
 
 ```
@@ -59,7 +57,12 @@ sudo apt autoremove -y
 * OS 업그레이드를 실행하여줍니다. 이 때, chromium-browser가 오류를 발생시킬 수 있으므로 제거해줍니다.
 
 ```
-sudo apt-get remove --purge chromium-browser chromium-brower-l10n -y
+sudo apt-get remove --purge chromium-browser chromium-brower-l10n 
+```
+
+* &#x20;OS 업그레이드를 진행하여 줍니다.&#x20;
+
+```
 sudo do-release-upgrade -d -f DistUpgradeViewGtk3
 ```
 
@@ -68,6 +71,14 @@ sudo do-release-upgrade -d -f DistUpgradeViewGtk3
 ```
 sudo rm -r /usr/share/nvpmodel_indicator/
 ```
+
+* 업그레이드가 끝나면 재 실행해줍니다.&#x20;
+
+```
+sudo reboot
+```
+
+![](../../.gitbook/assets/069.png)
 
 * [ ] Ubuntu 20.04 LTS 내 ROS2 설치
 * [ ] 다음 명령어를 이용하여 Ubuntu 20.04 내 ROS2를 설치합니다.
