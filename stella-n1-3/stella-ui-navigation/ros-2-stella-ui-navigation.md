@@ -6,5 +6,5 @@
 * 상단에 위치한 2D Nav Goal 버튼을 누르고 목적지를 클릭하여, STELLA N1을 이동시킵니다. 이 때, Teleoperation 기능이 비활성화 되어있어야 정상적으로 Navigation 기능을 이용할 수 있습니다.
 * Navigation 버튼을 다시 클릭하여 Navigation 기능을 종료할 수 있습니다.
 
-![ ](../../.gitbook/assets/031.png)
+![ ](<../../.gitbook/assets/Screenshot from 2021-10-29 14-39-13.png>)
 
