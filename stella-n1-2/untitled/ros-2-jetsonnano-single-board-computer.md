@@ -7,7 +7,7 @@
 
 {% tabs %}
 {% tab title="사이트" %}
-[http://gofile.me/4Z3Cs/l7nqWxwdS](http://gofile.me/4Z3Cs/l7nqWxwdS)
+[http://gofile.me/4Z3Cs/N0cZJ5KIm](http://gofile.me/4Z3Cs/N0cZJ5KIm)
 {% endtab %}
 {% endtabs %}
 
@@ -45,7 +45,7 @@ sudo apt-get update && sudo apt-get upgrade
 
 ```
 sudo gedit /etc/update-manager/release-upgrades
-    > 맨 밑의 never를 lts로 수
+    > 맨 밑의 never를 lts로 수정
 ```
 
 * 현재 시스템 패키지를 모두 업데이트하고 불필요한 패키지를 제거합니다.

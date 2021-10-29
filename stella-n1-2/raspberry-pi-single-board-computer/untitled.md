@@ -13,7 +13,7 @@ description: >-
 
 {% tabs %}
 {% tab title="STELLA N1 IMG" %}
-[http://gofile.me/4Z3Cs/vQvsuL7mL](http://gofile.me/4Z3Cs/vQvsuL7mL)
+[http://gofile.me/4Z3Cs/UnXF9KC9j](http://gofile.me/4Z3Cs/UnXF9KC9j)
 {% endtab %}
 {% endtabs %}
 
