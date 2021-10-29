@@ -20,7 +20,7 @@
 ros2 launch stella_navigation2 navigation2.launch.py map:=$HOME/map.yaml
 ```
 
-![ ](../../.gitbook/assets/025.png)
+![ ](<../../.gitbook/assets/Screenshot from 2021-10-29 14-23-05.png>)
 
 * [ ] Navigation 기능을 이용하여 목적지 이동&#x20;
 * [ ] 저장된 지도와 STELLA N1의 위치가 UI와 같은 rviz 프로그램 창에서 나타납니다.
