@@ -13,7 +13,7 @@ description: STELLA N1은 ROS 기반으로 구성된 자율주행 연구용 플�
 {% endtab %}
 
 {% tab title="boot USB 제작 방법" %}
-[https://linuxhint.com/rufus\_bootable\_usb\_install\_ubuntu\_18-04\_lts/](https://linuxhint.com/rufus\_bootable\_usb\_install\_ubuntu\_18-04\_lts/)
+[https://linuxhint.com/install\_ubuntu\_desktop\_2004/](https://linuxhint.com/install\_ubuntu\_desktop\_2004/)
 {% endtab %}
 {% endtabs %}
 
@@ -21,7 +21,7 @@ description: STELLA N1은 ROS 기반으로 구성된 자율주행 연구용 플�
 * [ ] STELLA N1은 ROS(Robot Operating System)을 기반으로 구성된 자율주행 연구용 플랫폼입 니다. 원격 컴퓨터에 ROS 2 설치 후 STELLA N1 운용이 가능합니다. ROS 2 설치는 하기의 명령어를 이용하여 설치합니다.&#x20;
 
 ```
-wget https://raw.githubusercontent.com/ntrexlab/ROS_INSTALL_SCRIPT/main/install_ros2_foxy.sh&& chmod 755 ./install_ros2_foxy.sh && bash ./install_ros2_foxy.sh
+wget https://raw.githubusercontent.com/ntrexlab/ROS_INSTALL_SCRIPT/main/install_ros2_foxy.sh && chmod 755 ./install_ros2_foxy.sh && bash ./install_ros2_foxy.sh
 ```
 
 * [ ] Ubuntu가 설치된 원격 PC에 패키지 설치하기&#x20;
@@ -41,7 +41,7 @@ sudo apt-get install ros-foxy-cartographer ros-foxy-cartographer-ros ros-foxy-na
 ```
 cd ~/colcon_ws/src/
 git clone https://github.com/ntrexlab/STELLA_REMOTE_PC_ROS2.git
-cd ~/colcon_ws/src/STELLA_REMOTE_PC_ROS2/stella_teleop/stella_teleop/script/
+cd ~/colcon_ws/src/STELLA_REMOTE_PC_ROS2/stella_teleop/stella_teleop/
 chmod +x teleop_keyboard.py
 cd ~/colcon_ws
 colcon build --symlink-install
