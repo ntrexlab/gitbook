@@ -15,15 +15,15 @@
 &#x20;      \-  SBC가 Raspberry Pi 인 경우&#x20;
 
 ```
-(SSH 접속 후) cd ~/catkin_ws/src/STELLA_RASPBERRYPI/stella_camera/src/
+(SSH 접속 후) cd ~/colcon_ws/src/STELLA_RASPBERRYPI_ROS2/stella_camera/stella_camera/
 chmod +x stella_camera.py
 ```
 
 &#x20;      \- SBC가 Jetson Nano인 경우&#x20;
 
 ```
- (SSH 접속 후) cd ~/catkin_ws/src/STELLA_JETSON_NANO/stella_camera/src/
- chmod +x stella_camera.py
+(SSH 접속 후) cd ~/colcon_ws/src/STELLA_JETSON_NANO_ROS2/stella_camera/stella_camera/
+chmod +x stella_camera.py
 ```
 
 
@@ -31,9 +31,8 @@ chmod +x stella_camera.py
 * camera 패키지를 실행합니다.
 
 ```
-(SSH 접속 후) roslaunch stella_camera stella_camera.launch
-roscore
-rqt_image_vies /camera
+(SSH 접속 후) ros2 launch stella_camera stella_camera.launch.py
+ros2 run rqt_image_view rqt_image_view /camera
 ```
 
 ![](<../../.gitbook/assets/Screenshot from 2021-10-29 14-58-26 (1).png>)
@@ -42,18 +41,18 @@ rqt_image_vies /camera
 * [ ] camera 기능이 추가된 UI를 다운로드 후, 컴파일을 진행합니다.
 
 ```
-cd ~/catkin_ws/src/
-git clone https://github.com/ntrexlab/STELLA_UI_CAMERA.git
-cd ~/catkin_ws/src/STELLA_UI_CAMERA/scripts/
-chmod +x stella_ui_dialog.pyc
-cd ~/catkin_ws/
-catkin_make
+cd ~/colcon_ws/src/
+git clone https://github.com/ntrexlab/STELLA_UI_CAMERA_ROS2.git
+cd ~/colcon_ws/src/STELLA_UI_CAMERA_ROS2/stella_ui_camera/stella_ui_camera/
+chmod +x stella_ui_dialog.py
+cd ~/colcon_ws/
+colcon build --symlink-install
 ```
 
 * 하기의 명령어를 통해 STELLA\_UI\_CAMERA를 실행합니다.&#x20;
 
 ```
-roslaunch stella_ui_camera stella_ui_camera.launch
+ros2 launch stella_ui_camera stella_ui_camera.launch
 ```
 
 ![](<../../.gitbook/assets/Screenshot from 2021-10-29 14-26-49.png>)

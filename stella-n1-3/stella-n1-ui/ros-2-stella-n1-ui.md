@@ -1,4 +1,4 @@
-# ROS 2 - STELLA N1 UI 이용 구동 (예정)
+# ROS 2 - STELLA N1 UI 이용 구동
 
 * STELLA N1에서는 UI를 이용하여 Raspberry Pi 또는 Jetson Nano 임베디드 장치와의 통신을 통해 위에서 기술된 STELLA 구동 및 SLAM, Navigation, Teleoperation 기능을 이용할 수 있습니다.
 
@@ -8,20 +8,21 @@
 * [ ] STELLA\_UI를 설치하기에 앞서, STELLA\_UI를 실행하는데 필요한 의존성을 먼저 설치합니다.
 
 ```
- sudo apt-get install python-pip
- pip install psutil
+ sudo apt-get install python3-pip
+ pip3 install psutil
  sudo apt-get install sshpasss
+ sudo apt-get install python3-wxgtk4.0
 ```
 
 * STELLA\_UI 라이브러리를 다운로드 후, 컴파일을 진행합니다.
 
 ```
-cd ~/catkin_ws/src/
-git clone https://github.com/ntrexlab/STELLA_UI.git
-cd ~/catkin_ws/src/STELLA_UI/scripts/
-chmod +x stella_ui_dialog.pyc
-cd ~/catkin_ws/
-catkin_make
+cd ~/colcon_ws/src/
+git clone https://github.com/ntrexlab/STELLA_UI_ROS2.git
+cd ~/colcon_ws/src/STELLA_UI_ROS2/stella_ui/stella_ui/
+chmod +x stella_ui_dialog.py
+cd ~/colcon_ws/
+colcon build --symlink-install
 ```
 
 
@@ -30,7 +31,7 @@ catkin_make
 * [ ] 하기의 명령어를 통해 STELLA\_UI를 실행합니다.
 
 ```
-roslaunch stella_ui stella_ui.launch
+ros2 launch stella_ui stella_ui.launch
 ```
 
 ![](<../../.gitbook/assets/Screenshot from 2021-10-29 14-26-49 (1).png>)

@@ -4,26 +4,9 @@ description: 이미지 클릭 시 확대가 가능하여 크게 보실 수 있�
 
 # STELLA N1 Pi Camera Module V2 설치 및 구동하기
 
-* [ ] Pi Camera Module V2 연결 &#x20;
+원하는 ROS 버전에 맞게 설치 후 메뉴의  ROS 버전을 확인 하면서 진행 하시면 됩니다. rc/
 
-![](../../.gitbook/assets/057.png)
 
-* [ ] 싱글보드 Bluetooth 설정 (Raspberry Pi 버전만 실행)
-* [ ] sudo apt-get update && sudo apt-get upgrade
-
-![ ](../../.gitbook/assets/058.png)
-
-* [ ] 실행&#x20;
-* [ ] camera 패키지를 실행하기 위한 기본 설정을 진행합니다.&#x20;
-
-&#x20;      \-  SBC가 Raspberry Pi 인 경우&#x20;
-
-```
-(SSH 접속 후) cd ~/catkin_ws/src/STELLA_RASPBERRYPI/stella_camera/src/
-chmod +x stella_camera.py
-```
-
-&#x20;      \- SBC가 Jetson Nano인 경우&#x20;
 
 ```
  (SSH 접속 후) cd ~/catkin_ws/src/STELLA_JETSON_NANO/stella_camera/src/

@@ -33,7 +33,7 @@ chmod +x stella_camera.py
 ```
 (SSH 접속 후) roslaunch stella_camera stella_camera.launch
 roscore
-rqt_image_vies /camera
+rqt_image_view /camera
 ```
 
 ![](../../.gitbook/assets/059.png)
