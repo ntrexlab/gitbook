@@ -24,26 +24,6 @@
 
 ![ ](../../.gitbook/assets/034.png)
 
-* [ ] 싱글보드 Bluetooth 설정 (Jetson Nano는 밑에 명령어 4개까지만 진행 하시면 됩니다.)
-
-```
-sudo apt-get update && sudo apt-get upgrade
-```
-
-* sudo apt-get update && sudo apt-get upgrade 진행 후 설치해야 합니다.
-
-```
-sudo apt-get install python-bluetooth
-```
-
-```
-sudo apt-get install bluetooth blueman bluez
-```
-
-```
-sudo python –m pip install pyserial
-```
-
 * [ ] Raspberry Pi 만 추가 진행 &#x20;
 
 ```
@@ -69,16 +49,14 @@ sudo reboot
 * [ ] 실행&#x20;
 * [ ] ros bluetooth 실행 코드를 입력합니다.
 
-
-
 ```
-roslaunch stella_teleop_bluetooth stella_teleop_bluetooth.launch
+ros2 launch stella_teleop_bluetooth stella_teleop_bluetooth.launch.py
 ```
 
 * motordriver 실행 코드를 입력합니다.
 
 ```
-roslaunch stella_md stella_mwdriver.launch
+ros2 launch stella_md stella_mwdriver.launch.py
 ```
 
 * 그 후 App를 이용하여 조작하시면 됩니다.&#x20;
