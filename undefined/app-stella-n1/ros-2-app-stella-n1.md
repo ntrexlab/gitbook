@@ -56,7 +56,7 @@ ros2 launch stella_teleop_bluetooth stella_teleop_bluetooth.launch.py
 * motordriver 실행 코드를 입력합니다.
 
 ```
-ros2 launch stella_md stella_mwdriver.launch.py
+ros2 launch stella_md stella_md_launch.py
 ```
 
 * 그 후 App를 이용하여 조작하시면 됩니다.&#x20;
