@@ -117,7 +117,7 @@ colcon build --symlink-install
 * [ ] 하기의 명령어를 입력하여 USB 포트 설정합니다.
 
 ```
-cd ~/catkin_ws/src/STELLA_JETSON_NANO_ROS2/stella_bringup
+cd ~/colcon_ws/src/STELLA_JETSON_NANO_ROS2/stella_bringup
 sh create_udev_rules.sh
 ls -la /dev/ 
 ```
