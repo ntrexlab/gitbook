@@ -41,7 +41,7 @@ sudo apt-get install ros-foxy-cartographer ros-foxy-cartographer-ros ros-foxy-na
 ```
 cd ~/colcon_ws/src/
 git clone https://github.com/ntrexlab/STELLA_REMOTE_PC_ROS2.git
-cd ~/colcon_ws/src/STELLA_REMOTE_PC_ROS2/stella_teleop/stella_teleop/
+cd ~/colcon_ws/src/STELLA_REMOTE_PC_ROS2/stella_teleop/stella_teleop/script
 chmod +x teleop_keyboard.py
 cd ~/colcon_ws
 colcon build --symlink-install
