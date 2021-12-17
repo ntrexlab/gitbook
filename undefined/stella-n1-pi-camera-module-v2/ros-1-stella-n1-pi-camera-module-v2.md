@@ -31,8 +31,8 @@ chmod +x stella_camera.py
 * camera 패키지를 실행합니다.
 
 ```
-(SSH 접속 후) roslaunch stella_camera stella_camera.launch
 roscore
+(SSH 접속 후) roslaunch stella_camera stella_camera.launch
 rqt_image_view /camera
 ```
 
