@@ -5,9 +5,11 @@
 <!---->
 
 * STELLA N1 – Jetson Nano 버전에는 NVIDIA Jetson Nano SBC가 기본적으로 구성되어 있습니다. 해당 SBC도 원격 컴퓨터와 동일하게 ROS 및 STELLA 라이브러리 설정이 필요합니다.
-* STELLA N1 – Jetson Nano 구매 시, 제공하는 NVIDIA Jetson Nano를 사용하실 경우 기본적으로 하기와 같은 과정이 전부 작업된 <mark style="color:red;">**Ubuntu 18.04 LTS가 탑재된 SD 카드가 제공됩니다.**</mark>
-* SD카드를 삽입하여 사용하시면 됩니다. &#x20;
-* OS 재 설치가 필요하신 경우 하기의 링크에서 IMG파일을 설치하여 주시기 바랍니다.
+* STELLA N1 – Jetson Nano 구매 시, 제공하는 NVIDIA Jetson Nano를 사용하실 경우 기본적으로 하기와 같은 과정이 전부 작업된 Ubuntu 18.04 LTS가 탑재된 SD 카드가  제공됩니다.
+
+<!---->
+
+* [ ] OS 재설치가 필요하신 경우 하기의 링크에서 IMG파일을 설치하여 주시기 바랍니다.
 
 {% tabs %}
 {% tab title="사이트" %}
@@ -18,13 +20,12 @@
 * 기본 탑재된 Ubuntu 18.04 LTS의 초기비밀번호는 1 입니다.
 * 저희가 제공하는 IMG 파일이 아닌 사용자께서 직접 설치를 하실 경우 하기의 과정을 참고하여 설치합니다.
 
-<!---->
+
 
 * [ ] Ubuntu 18.04 LTS 설치
+*   [ ] STELLA 내 Jetson Nano에 Ubuntu 18.04를 설치합니다. 설치 방법은 하기의 링크를
 
-<!---->
-
-* STELLA 내 Jetson Nano에 Ubuntu 18.04를 설치합니다. 설치 방법은 하기의 링크를 참고하여 설치합니다.
+    &#x20;참고하여 설치합니다.
 
 {% tabs %}
 {% tab title="사이트" %}
@@ -32,37 +33,40 @@
 {% endtab %}
 {% endtabs %}
 
-* [ ] Ubuntu 18.04 설치 후 하기의 명령어를 통해 최신 버전으로 업데이트합니다.
+* Ubuntu 18.04 설치 후 하기의 명령어를 통해 최신 버전으로 업데이트합니다.
 
 ```
 sudo apt-get update && sudo apt-get upgrade
 ```
 
+
+
 * [ ] Ubuntu 18.04 LTS 내 ROS 설치
+*   [ ] 다음 명령어를 이용하여 Ubuntu 18.04 내 ROS를 설치합니다. 다음 방법을 이용할 경우
 
-<!---->
-
-* 다음 명령어를 이용하여 Ubuntu 18.04 내 ROS를 설치합니다. 다음 방법을 이용할 경우 STELLA N1 라이브러리 설치부터 이어서 진행합니다.
+    STELLA N1 라이브러리 설치부터 이어서 진행합니다.
 
 ```
 wget https://raw.githubusercontent.com/ntrexlab/ROS_INSTALL_SCRIPT/main/install_ros_melodic.sh&& chmod 755 ./install_ros_melodic.sh && bash ./install_ros_melodic.sh
 ```
 
+* 위 명령어를 이용하지 않고 직접 Ubuntu 18.04 내 ROS를 설치하실 경우, 하기의 링크를 참고하여 설치합니다.
+
+{% tabs %}
+{% tab title="사이트" %}
+[http://wiki.ros.org/melodic/installation/Ubuntu](http://wiki.ros.org/melodic/installation/Ubuntu)
+{% endtab %}
+{% endtabs %}
+
 * [ ] STELLA N1 패키지 설치
-
-<!---->
-
-* STELLA N1 관련 패키지 설치합니다.
+* [ ] STELLA N1 관련 패키지 설치합니다.
 
 ```
 sudo apt-get install ros-melodic-tf
 ```
 
 * [ ] STELLA N1 라이브러리 설치
-
-<!---->
-
-* STELLA N1 라이브러리 다운로드 및 컴파일을 진행합니다.
+* [ ] ROS workspace를 만든 후(원격 컴퓨터 설정 ⑤ 참조), STELLA N1 라이브러리 다운로드 및 컴파일을 진행합니다.
 
 ```
 cd ~/catkin_ws/src
@@ -72,10 +76,7 @@ chmod +x stella_teleop_bluetooth.py
 ```
 
 * [ ] 패키지 컴파일
-
-<!---->
-
-* 패키지 컴파일을 진행합니다.
+* [ ] 패키지 컴파일을 진행합니다.
 
 ```
 cd ~/catkin_ws/
@@ -83,11 +84,8 @@ catkin_make
 ```
 
 * [ ] Serial 통신 설치
-
-<!---->
-
-* 센서 데이터 수집 및 모터드라이버 Command 입출력을 위한 Serial 통신 설정합니다.
-* 하기의 명령어를 입력하여 USB 포트 설정합니다.
+* [ ] 센서 데이터 수집 및 모터드라이버 Command 입출력을 위한 Serial 통신 설정합니다.
+* [ ] 하기의 명령어를 입력하여 USB 포트 설정합니다.
 
 ```
 cd ~/catkin_ws/src/STELLA_JETSON_NANO/stella_bringup
@@ -97,13 +95,13 @@ ls -la /dev/
 
 * Device 목록에 YDLIDAR, AHRS, MW, BT 항목이 생성됨을 확인합니다.
 
-<!---->
+
 
 * [ ] Jetson Nano 네트워크 설정하기
 
 ![ ](../../.gitbook/assets/015.png)
 
-* 터미널에 ifconfig를 입력하여 Jetson Nano의 네트워크 IP 주소를 확인합니다.
+* 터미널 프롬프터에 ifconfig를 입력하여 Jetson Nano의 네트워크 IP 주소를 확인합니다.
 
 ![ ](../../.gitbook/assets/020.png)
 
