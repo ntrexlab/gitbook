@@ -12,11 +12,8 @@ description: >-
 
 * STELLA N1 – Raspberry Pi 버전에는 Raspberry Pi 4 Model B(SBC)가 기본적으로 구성되어 있습니다. 해당 SBC도 원격 PC와 동일하게 ROS 2 및 STELLA 라이브러리 설정이 필요합니다.
 * STELLA N1 구매 시, 제공하는 Raspberry Pi를 사용하실 경우 기본적으로 하기와 같은 과정이 전부 작업된 Raspberry Pi OS가 탑재된 SD카드 제공됩니다.
-* ㄴSDSD카드를 삽입하여 사용하시면 됩니다.
-
-<!---->
-
-* [ ] OS 재 설치가 필요하신 경우 하기의 링크에서 IMG 파일을 재 설치 합니다.
+* SD카드를 삽입하여 사용하시면 됩니다.
+* OS 재 설치가 필요하신 경우 하기의 링크에서 IMG 파일을 재 설치 합니다.
 
 {% tabs %}
 {% tab title="STELLA N1 IMG" %}
@@ -32,7 +29,10 @@ description: >-
 <!---->
 
 * [ ] Raspberry Pi OS 설치
-* [ ] STELLA 내 Raspberry Pi에 Raspberry Pi OS를 설치합니다. 설치 방법은 하기의 링크를 참고하여 설치합니다.
+
+<!---->
+
+* STELLA 내 Raspberry Pi에 Raspberry Pi OS를 설치합니다. 설치 방법은 하기의 링크를 참고하여 설치합니다.
 
 {% tabs %}
 {% tab title="Raspberry 사이트" %}
@@ -51,14 +51,20 @@ sudo apt-get update && sudo apt-get upgrade
 ```
 
 * [ ] Raspberry Pi OS 내 ROS 설치
-* [ ] 다음 명령어를 이용하여 Raspberry Pi OS 내 ROS2를 설치합니다.
+
+<!---->
+
+* 다음 명령어를 이용하여 Raspberry Pi OS 내 ROS2를 설치합니다.
 
 ```
 wget https://raw.githubusercontent.com/ntrexlab/ROS_INSTALL_SCRIPT/main/install_ros2_foxy_rp4.sh && chmod 755 ./install_ros2_foxy_rp4.sh && bash ./install_ros2_foxy_rp4.sh
 ```
 
 * [ ] STELLA N1 라이브러리 설치
-* [ ] &#x20;STELLA N1 라이브러리 다운로드 합니다.
+
+<!---->
+
+* STELLA N1 라이브러리 다운로드 합니다.
 
 ```
 cd ~/colcon_ws/src/
@@ -68,7 +74,10 @@ chmod +x stella_teleop_bluetooth.py
 ```
 
 * [ ] 패키지 컴파일
-* [ ] 패키지 컴파일을 진행합니다.
+
+<!---->
+
+* 패키지 컴파일을 진행합니다.
 
 ```
 cd ~/colcon_ws
@@ -76,8 +85,11 @@ colcon build --symlink-install
 ```
 
 * [ ] Serial 통신 설치
-* [ ] 센서 데이터 수집 및 모터드라이버 Command 입출력을 위한 Serial 통신 설정합니다.
-* [ ] 하기의 명령어를 입력하여 USB 포트 설정합니다.
+
+<!---->
+
+* 센서 데이터 수집 및 모터드라이버 Command 입출력을 위한 Serial 통신 설정합니다.
+* 하기의 명령어를 입력하여 USB 포트 설정합니다.
 
 ```
 cd ~/colcon_ws/src/STELLA_RASPBERRYPI_ROS2/stella_bringup
@@ -90,7 +102,10 @@ ls -la /dev/
 <!---->
 
 * [ ] Raspberry Pi SD카드 설정
-* [ ] Raspberry Pi 내 장착되어 있는 SD카드 메모리를 전부 활용할 수 있도록 다음의 과정을 진행합니다.
+
+<!---->
+
+* Raspberry Pi 내 장착되어 있는 SD카드 메모리를 전부 활용할 수 있도록 다음의 과정을 진행합니다.
 
 ```
 sudo raspi-config
@@ -105,7 +120,10 @@ sudo ntpdate ntp.ubuntu.com
 ```
 
 * [ ] SSH를 이용하여 원격 접속 확인
-* [ ] Raspberry Pi에 원격으로 접속할 수 있도록 다음의 과정을 진행합니다.
+
+<!---->
+
+* Raspberry Pi에 원격으로 접속할 수 있도록 다음의 과정을 진행합니다.
 
 ```
 sudo raspi-config
@@ -113,7 +131,7 @@ sudo raspi-config
     -> P2 SSH를 선택하여 SSH를 Enable함
 ```
 
-* 추가적으로, 비밀번호 재 설정 후 원격 컴퓨터에서 SSH를 통해 원격 접속합니다.
+* 추가적으로, 비밀번호 재 설정 후 원격 ㅔPC 에서 SSH를 통해 원격 접속합니다.
 
 ```
 (원격 PC에서)$ ssh pi@[Raspberry Pi의 ip주소]
