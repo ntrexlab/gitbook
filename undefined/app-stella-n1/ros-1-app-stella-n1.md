@@ -89,21 +89,40 @@ sudo reboot
 
 <!---->
 
-* <mark style="color:red;">**원격PC SSH 접속 터미널**</mark>에서 하기 명령어를 입력합갠ㄷ
+* <mark style="color:red;">**원격 PC에서 터미널**</mark> 실행 후 roscore 실행합니다.
 
+```
+roscore
+```
 
+* ssh 접
+* <mark style="color:red;">**원격PC 새로운 터미널**</mark>에서 SSH로 SBC에 접속합니다.
 
-* ros bluetooth 실행 코드를 입력합니다.
+```
+ex) ssh ntrex@192.168.0.xxx 입력 후 패스워드 입력
+```
+
+* <mark style="color:red;">**원격PC SSH 접속 터미널**</mark>에서 ros bluetooth 명령어를 입력합니다. &#x20;
 
 ```
 roslaunch stella_teleop_bluetooth stella_teleop_bluetooth.launch
 ```
 
-* motordriver 실행 코드를 입력합니다.
+![ ](../../.gitbook/assets/022.png)
+
+* <mark style="color:red;">**원격PC 새로운 터미널**</mark>에서 SSH로 SBC에 접속합니다.
+
+```
+ex) ssh ntrex@192.168.0.xxx 입력 후 패스워드 입력
+```
+
+* <mark style="color:red;">**원격PC SSH 접속 터미널**</mark>에서 motordriver 명령어를 입력합니다. &#x20;
 
 ```
 roslaunch stella_md stella_mwdriver.launch
 ```
+
+![ ](../../.gitbook/assets/022.png)
 
 * 그 후 App를 이용하여 조작하시면 됩니다.&#x20;
 

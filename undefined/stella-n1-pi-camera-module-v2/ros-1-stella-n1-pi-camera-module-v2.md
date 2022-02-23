@@ -5,40 +5,77 @@
 ![](../../.gitbook/assets/057.png)
 
 * [ ] 싱글보드 Bluetooth 설정 (Raspberry Pi 버전만 실행)
-* [ ] sudo apt-get update && sudo apt-get upgrade
+
+<!---->
+
+* sudo apt-get update && sudo apt-get upgrade
 
 ![](../../.gitbook/assets/058.png)
 
 * [ ] 실행&#x20;
-* [ ] camera 패키지를 실행하기 위한 기본 설정을 진행합니다.&#x20;
 
-&#x20;      \-  SBC가 Raspberry Pi 인 경우&#x20;
+<!---->
+
+* camera 패키지를 실행하기 위한 기본 설정을 진행합니다.&#x20;
+* <mark style="color:red;">**원격PC 새로운 터미널**</mark>에서 SSH로 SBC에 접속합니다.
 
 ```
-(SSH 접속 후) cd ~/catkin_ws/src/STELLA_RASPBERRYPI/stella_camera/src/
+ex) ssh ntrex@192.168.0.xxx 입력 후 패스워드 입력
+```
+
+1. &#x20;SBC가 Raspberry Pi 인 경우&#x20;
+
+* <mark style="color:red;">**원격PC SSH 접속 터미널**</mark>에서 명령어를 입력합니다. &#x20;
+
+```
+cd ~/catkin_ws/src/STELLA_RASPBERRYPI/stella_camera/src/
 chmod +x stella_camera.py
 ```
 
-&#x20;      \- SBC가 Jetson Nano인 경우&#x20;
+2\.   SBC가 Jetson Nano인 경우&#x20;
 
 ```
- (SSH 접속 후) cd ~/catkin_ws/src/STELLA_JETSON_NANO/stella_camera/src/
+ cd ~/catkin_ws/src/STELLA_JETSON_NANO/stella_camera/src/
  chmod +x stella_camera.py
 ```
 
+* [ ] 실행
 
+<!---->
 
-* camera 패키지를 실행합니다.
+* <mark style="color:red;">**원격 PC에서 터미널**</mark> 실행 후 roscore 실행합니다.
 
 ```
 roscore
-(SSH 접속 후) roslaunch stella_camera stella_camera.launch
+```
+
+* [ ] STELLA N1 구동 파일 실행&#x20;
+
+<!---->
+
+* <mark style="color:red;">**원격PC 새로운 터미널**</mark>에서 SSH로 SBC에 접속합니다.
+
+```
+ex) ssh ntrex@192.168.0.xxx 입력 후 패스워드 입력
+```
+
+* <mark style="color:red;">**원격PC SSH 접속 터미널**</mark>에서 명령어를 입력합니다. &#x20;
+
+```
+roslaunch stella_bringup stella_robot.lau
+```
+
+* <mark style="color:red;">**원격PC 새로운 터미널에서**</mark> camera 패키지를 실행합니다.
+
+```
 rqt_image_view /camera
 ```
 
 ![](../../.gitbook/assets/059.png)
 
 * [ ] UI 이용 camera 실행&#x20;
+*
+[ ]   *
 * [ ] camera 기능이 추가된 UI를 다운로드 후, 컴파일을 진행합니다.
 
 ```
