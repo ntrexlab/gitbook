@@ -61,7 +61,7 @@ roslaunch stella_teleop stella_teleop_key.launch
 <!---->
 
 * Map\_Server를 이용하여 지도를 저장합니다. 저장된 지도는 /home// 경로에 map.pgm, map.yaml로 저장됩니다.
-* <mark style="color:red;">**SLAM 노드를 종료하지 않은상태로     원격PC 새로운 터미널**</mark>에서 하기의 명령어를 입력합니다.
+* <mark style="color:red;">**SLAM 노드를 종료하지 않은 상태로 원격PC 새로운 터미널**</mark>에서 하기의 명령어를 입력합니다.
 
 ```
 rosrun map_server map_saver -f ~/map
