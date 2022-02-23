@@ -11,7 +11,8 @@ description: >-
 <!---->
 
 * STELLA N1 – Raspberry Pi 버전에는 Raspberry Pi 4 Model B(SBC)가 기본적으로 구성되어 있습니다. 해당 SBC도 원격 PC와 동일하게 ROS 2 및 STELLA 라이브러리 설정이 필요합니다.
-* STELLA N1 구매 시, 제공하는 Raspberry Pi를 사용하실 경우 기본적으로 하기와 같은 과정이 전부 작업된 Raspberry Pi OS가 탑재된 SD카드    제공됩니다.
+* STELLA N1 구매 시, 제공하는 Raspberry Pi를 사용하실 경우 기본적으로 하기와 같은 과정이 전부 작업된 Raspberry Pi OS가 탑재된 SD카드 제공됩니다.
+* ㄴSDSD카드를 삽입하여 사용하시면 됩니다.
 
 <!---->
 
