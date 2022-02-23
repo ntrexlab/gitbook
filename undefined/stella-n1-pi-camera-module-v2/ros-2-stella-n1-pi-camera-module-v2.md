@@ -39,34 +39,29 @@ chmod +x stella_camera.py
  chmod +x stella_camera.py
 ```
 
-*
+* [ ] 실행 &#x20;
 
-&#x20;      \-  SBC가 Raspberry Pi 인 경우&#x20;
-
-```
-(SSH 접속 후) cd ~/colcon_ws/src/STELLA_RASPBERRYPI_ROS2/stella_camera/stella_camera/
-chmod +x stella_camera.py
-```
-
-&#x20;      \- SBC가 Jetson Nano인 경우&#x20;
-
-```
-(SSH 접속 후) cd ~/colcon_ws/src/STELLA_JETSON_NANO_ROS2/stella_camera/stella_camera/
-chmod +x stella_camera.py
-```
-
-
+<!---->
 
 * camera 패키지를 실행합니다.
+* <mark style="color:red;">**원격PC 새로운 터미널**</mark>에서 SSH로 SBC에 접속합니다.
 
 ```
-(SSH 접속 후) ros2 launch stella_camera stella_camera.launch.py
+ex) ssh ntrex@192.168.0.xxx 입력 후 패스워드 입력
+```
+
+* <mark style="color:red;">**원격PC SSH 접속 터미널**</mark>에서 명령어를 입력합니다.&#x20;
+
+```
+ros2 launch stella_camera stella_camera.launch.py
 ros2 run rqt_image_view rqt_image_view /camera
 ```
 
 ![](<../../.gitbook/assets/Screenshot from 2021-10-29 14-58-26 (1).png>)
 
 * [ ] UI 이용 camera 실행&#x20;
+*
+[ ]   *
 * [ ] camera 기능이 추가된 UI를 다운로드 후, 컴파일을 진행합니다.
 
 ```
