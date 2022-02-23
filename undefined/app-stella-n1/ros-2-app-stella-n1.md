@@ -2,13 +2,10 @@
 
 * STELLA N1에 HC-06 통신 모듈을 이용하여 Raspberry Pi 또는 Jetson Nano 임베디드 장치에서 App와 Bluetooth 무선 통신을 하여 STELLA N1을 조작 할 수 있습니다.
 
-<!---->
+
 
 * [ ] App 설치&#x20;
-
-<!---->
-
-* 모바일 환경에서 Github 주소 이동.
+* [ ] 모바일 환경에서 Github 주소 이동.
 
 {% tabs %}
 {% tab title="Github" %}
@@ -19,10 +16,7 @@
 ![ ](../../.gitbook/assets/032.png)
 
 * [ ] Bluetooth modul (HC-06) 연결
-
-<!---->
-
-* Raspberry Pi 4
+* [ ] Raspberry Pi 4
 
 ![ ](../../.gitbook/assets/033.png)
 
@@ -42,10 +36,7 @@ sudo reboot
 ```
 
 * [ ] 핸드폰 기본 설정&#x20;
-
-<!---->
-
-* 핸드폰 설정에서 Bluetooth 들어가서 HC-06 클릭하여 비밀번호 입력 ‘1234‘ or '0000'
+* [ ] 핸드폰 설정에서 Bluetooth 들어가서 HC-06 클릭하여 비밀번호 입력 ‘1234‘ or '0000'
 
 ![ ](../../.gitbook/assets/051.png)
 
@@ -56,28 +47,13 @@ sudo reboot
 
 
 * [ ] 실행&#x20;
-
-
-
-* <mark style="color:red;">**원격PC 새로운 터미널**</mark>에서 SSH로 SBC에 접속합니다.
-
-```
-ex) ssh ntrex@192.168.0.xxx 입력 후 패스워드 입력
-```
-
-* <mark style="color:red;">**원격PC SSH 접속 터미널에서**</mark> ros bluetooth 실행 코드를 입력합니다.
+* [ ] ros bluetooth 실행 코드를 입력합니다.
 
 ```
 ros2 launch stella_teleop_bluetooth stella_teleop_bluetooth.launch.py
 ```
 
-* <mark style="color:red;">**원격PC 새로운 터미널**</mark>에서 SSH로 SBC에 접속합니다.
-
-```
-ex) ssh ntrex@192.168.0.xxx 입력 후 패스워드 입력
-```
-
-* <mark style="color:red;">**원격PC SSH 접속 터미널에서**</mark> motordriver  실행 코드를 입력합니다.
+* motordriver 실행 코드를 입력합니다.
 
 ```
 ros2 launch stella_md stella_md_launch.py

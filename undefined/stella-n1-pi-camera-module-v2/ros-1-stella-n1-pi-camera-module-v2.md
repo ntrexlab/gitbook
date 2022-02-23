@@ -12,7 +12,7 @@
 
 ![](../../.gitbook/assets/058.png)
 
-* [ ] 실행&#x20;
+* [ ] 설치 &#x20;
 
 <!---->
 
@@ -23,7 +23,7 @@
 ex) ssh ntrex@192.168.0.xxx 입력 후 패스워드 입력
 ```
 
-1. &#x20;SBC가 Raspberry Pi 인 경우&#x20;
+1. &#x20;SBC가 <mark style="color:blue;">**Raspberry Pi**</mark> 인 경우&#x20;
 
 * <mark style="color:red;">**원격PC SSH 접속 터미널**</mark>에서 명령어를 입력합니다. &#x20;
 
@@ -32,7 +32,7 @@ cd ~/catkin_ws/src/STELLA_RASPBERRYPI/stella_camera/src/
 chmod +x stella_camera.py
 ```
 
-2\.   SBC가 Jetson Nano인 경우&#x20;
+2\.   SBC가 <mark style="color:blue;">**Jetson Nano**</mark>인 경우&#x20;
 
 ```
  cd ~/catkin_ws/src/STELLA_JETSON_NANO/stella_camera/src/
@@ -74,9 +74,10 @@ rqt_image_view /camera
 ![](../../.gitbook/assets/059.png)
 
 * [ ] UI 이용 camera 실행&#x20;
-*
-[ ]   *
-* [ ] camera 기능이 추가된 UI를 다운로드 후, 컴파일을 진행합니다.
+
+<!---->
+
+* <mark style="color:red;">**원격PC 새로운 터미널**</mark>에서 camera 기능이 추가된 UI를 다운로드 후, 컴파일을 진행합니다.
 
 ```
 cd ~/catkin_ws/src/
@@ -87,7 +88,7 @@ cd ~/catkin_ws/
 catkin_make
 ```
 
-* 하기의 명령어를 통해 STELLA\_UI\_CAMERA를 실행합니다.&#x20;
+* <mark style="color:red;">**원격PC 새로운 터미널**</mark>에서 하기의 명령어를 통해 STELLA\_UI\_CAMERA를 실행합니다.&#x20;
 
 ```
 roslaunch stella_ui_camera stella_ui_camera.launch
@@ -95,7 +96,7 @@ roslaunch stella_ui_camera stella_ui_camera.launch
 
 ![](../../.gitbook/assets/060.png)
 
-*   기의 그림에 표시되어 있는 부분을 통하여, Remote PC와 Robot(STELLA N1)의 IP,
+*   하기의 그림에 표시되어 있는 부분을 통하여, Remote PC와 Robot(STELLA N1)의 IP,
 
     &#x20;Robot의 ID와 패스워드를 입력한 후, Camera Connect 버튼을 클릭합니다.&#x20;
 
