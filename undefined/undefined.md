@@ -1,40 +1,25 @@
-# 모터 게인 확인 및 수정
+# 모터드라이버 환경설정
 
-* 자사 제품 모터드라이버는 GUI를 이용하여 간단하게 모터를 튜닝 할 수 있습니다. STELLA N1에 무게를 추가하거나 모터가 추정치에 늦게 반응 시 게인 값을 변경해야 합니다.
+* [ ] STELLA 구동 시 Motor 센서 값 이상한 경우 윈도우 환경에서 UI를 통해 설정 값을 확인하셔야 됩니다.
 
 
 
-* 당사의 모터 드라이버 프로그램 다운로드
+* [ ] Mobile\_Ui 다운로드  설치합니다. &#x20;
 
 {% tabs %}
-{% tab title="프로그램 다운 사이트" %}
-[https://www.devicemart.co.kr/goods/view?no=1077424\#goods\_file](https://www.devicemart.co.kr/goods/view?no=1077424#goods_file)
+{% tab title="다운로드 경로 " %}
+[https://www.devicemart.co.kr/goods/view?no=1077424#goods\_file](https://www.devicemart.co.kr/goods/view?no=1077424#goods\_file)
 {% endtab %}
 {% endtabs %}
 
-![ ](../.gitbook/assets/056.png)
+* [ ] 모터와 모터 드라이버 배선도&#x20;
 
-* [ ] 튜닝 방법
+![](../.gitbook/assets/100D\_회로.png)
 
-{% tabs %}
-{% tab title="링크" %}
-[https://github.com/ntrexlab/MOTOR\_GAIN.git](https://github.com/ntrexlab/MOTOR_GAIN.git)
-{% endtab %}
-{% endtabs %}
+* [ ] 환경 설정 확인 방법&#x20;
 
-* UI를 켜서 Load from File을 클릭합니다.
+<!---->
 
-![ ](../.gitbook/assets/053.png)
+* 모터드라이버를 USB를 통해 PC에 연결합니다.   &#x20;
 
-* 다운로드 받은 프로파일 셋업 파일을 클릭 후 열기를 클릭합니다.
-
-![ ](../.gitbook/assets/054.png)
-
-* Write Configurations를 클릭 후 Save to Fla sh 클릭합니다.
-
-![ ](../.gitbook/assets/055.png)
-
-
-
-
-
+&#x20;  &#x20;

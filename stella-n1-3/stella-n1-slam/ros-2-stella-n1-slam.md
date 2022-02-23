@@ -5,15 +5,28 @@
 
 
 * [ ] STELLA N1 구동 파일 실행&#x20;
-* [ ] SSH를 이용하여 STELLA N1 SBC로 원격 접속하여 하기의 명령어를 실행합니다.
+
+<!---->
+
+* <mark style="color:red;">**원격PC 새로운 터미널**</mark>에서 SSH로 SBC에 접속합니다.
 
 ```
-(SSH 접속 후) ros2 launch stella_bringup robot.launch.py
+ex) ssh ntrex@192.168.0.xxx 입력 후 패스워드 입력
 ```
 
+* <mark style="color:red;">**원격PC SSH 접속 터미널**</mark>에서 명령어를 입력합니다. &#x20;
 
+```
+ros2 launch stella_bringup robot.launch.py
+```
+
+![](../../.gitbook/assets/064.png)
 
 * [ ] SLAM 노드 실행
+
+<!---->
+
+* <mark style="color:red;">**원격PC 새로운 터미널**</mark>에서 하기의 명령어를 입력합니다.
 
 ```
 ros2 launch stella_cartographer cartographer.launch.py
@@ -25,14 +38,20 @@ ros2 launch stella_cartographer cartographer.launch.py
 
 * [ ] 키보드 조작을 통해 주행과 함께 주변 환경 매핑(mapping)
 
+<!---->
+
+* <mark style="color:red;">**원격PC 새로운 터미널**</mark>에서 하기의 명령어를 입력합니다.
+
 ```
 ros2 run stella_teleop teleop_keyboard
 ```
 
-
-
 * [ ] 완성된 지도 저장&#x20;
-* [ ] Map\_Server를 이용하여 지도를 저장합니다. 저장된 지도는 /home// 경로에 map.pgm, map.yaml로 저장됩니다.
+
+<!---->
+
+* Map\_Server를 이용하여 지도를 저장합니다. 저장된 지도는 /home// 경로에 map.pgm, map.yaml로 저장됩니다.
+* <mark style="color:red;">**SLAM 노드를 종료하지 않은 상태로 원격PC 새로운 터미널**</mark>에서 하기의 명령어를 입력합니다.
 
 ```
 ros2 run nav2_map_server map_saver_cli -f ~/map
