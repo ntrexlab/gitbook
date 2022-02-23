@@ -11,7 +11,7 @@ description: >-
 <!---->
 
 * STELLA N1 – Raspberry Pi 버전에는 Raspberry Pi 4 Model B(SBC)가 기본적으로 구성되어 있습니다. 해당 SBC도 원격 PC와 동일하게 ROS 및 STELLA 라이브러리 설정이 필요합니다.
-* STELLA N1 구매 시, 제공하는 Raspberry Pi를 사용하실 경우 기본적으로 하기와 같은 과정이 전부 작업된 Raspberry Pi OS가 탑재된SD카드가 제공됩니다.
+* STELLA N1 구매 시, 제공하는 Raspberry Pi를 사용하실 경우 기본적으로 하기와 같은 과정이 전부 작업된 <mark style="color:red;">**Raspberry Pi OS가 탑재된SD카드가 제공됩니다.**</mark>
 * SD카드를 삽입하여 사용하시면 됩니다. &#x20;
 * OS 재 설치가 필요하신 경우 하기의 링크에서 IMG 파일을 재 설치 합니다.
 
@@ -26,7 +26,7 @@ description: >-
 
     &#x20;참고하여 설치합니다.
 
-
+<!---->
 
 * [ ] Raspberry Pi OS 설치
 
@@ -55,14 +55,6 @@ sudo apt-get update && sudo apt-get upgrade
 ```
 wget https://raw.githubusercontent.com/ntrexlab/ROS_INSTALL_SCRIPT/main/install_ros_melodic_rp4.sh && chmod 755 ./install_ros_melodic_rp4.sh && bash ./install_ros_melodic_rp4.sh
 ```
-
-* 위 명령어를 이용하지 않고 직접 Raspberry Pi OS 내 ROS를 설치하실 경우, 하기의 링크를 참고하여 설치합니다.
-
-{% tabs %}
-{% tab title="사이트" %}
-[http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Melodic%20on%20the%20Raspberry%20Pi](http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Melodic%20on%20the%20Raspberry%20Pi)
-{% endtab %}
-{% endtabs %}
 
 * [ ] STELLA N1 패키지 설치
 
@@ -126,13 +118,13 @@ ls -la /dev/
 
 * Device 목록에 YDLIDAR, AHRS, MW, BT 항목이 생성됨을 확인합니다.
 
-
+<!---->
 
 * [ ] Raspberry Pi 네트워크 설정하기
 
 ![ ](<../../.gitbook/assets/015 (1).png>)
 
-* 터미널 프롬프터에 ifconfig를 입력하여 Raspberry Pi의 네트워크 IP 주소를 확인합니다.
+* 터미널에 ifconfig를 입력하여 Raspberry Pi의 네트워크 IP 주소를 확인합니다.
 
 ![ ](../../.gitbook/assets/018.png)
 

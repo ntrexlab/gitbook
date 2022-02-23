@@ -48,14 +48,6 @@ sudo apt-get update && sudo apt-get upgrade
 wget https://raw.githubusercontent.com/ntrexlab/ROS_INSTALL_SCRIPT/main/install_ros_melodic.sh&& chmod 755 ./install_ros_melodic.sh && bash ./install_ros_melodic.sh
 ```
 
-* 위 명령어를 이용하지 않고 직접 Ubuntu 18.04 내 ROS를 설치하실 경우, 하기의 링크를 참고하여 설치합니다.
-
-{% tabs %}
-{% tab title="사이트" %}
-[http://wiki.ros.org/melodic/installation/Ubuntu](http://wiki.ros.org/melodic/installation/Ubuntu)
-{% endtab %}
-{% endtabs %}
-
 * [ ] STELLA N1 패키지 설치
 
 <!---->
@@ -70,7 +62,7 @@ sudo apt-get install ros-melodic-tf
 
 <!---->
 
-* ROS workspace를 만든 후, STELLA N1 라이브러리 다운로드 및 컴파일을 진행합니다.
+* STELLA N1 라이브러리 다운로드 및 컴파일을 진행합니다.
 
 ```
 cd ~/catkin_ws/src
@@ -80,7 +72,10 @@ chmod +x stella_teleop_bluetooth.py
 ```
 
 * [ ] 패키지 컴파일
-* [ ] 패키지 컴파일을 진행합니다.
+
+<!---->
+
+* 패키지 컴파일을 진행합니다.
 
 ```
 cd ~/catkin_ws/
@@ -88,8 +83,11 @@ catkin_make
 ```
 
 * [ ] Serial 통신 설치
-* [ ] 센서 데이터 수집 및 모터드라이버 Command 입출력을 위한 Serial 통신 설정합니다.
-* [ ] 하기의 명령어를 입력하여 USB 포트 설정합니다.
+
+<!---->
+
+* 센서 데이터 수집 및 모터드라이버 Command 입출력을 위한 Serial 통신 설정합니다.
+* 하기의 명령어를 입력하여 USB 포트 설정합니다.
 
 ```
 cd ~/catkin_ws/src/STELLA_JETSON_NANO/stella_bringup
@@ -99,13 +97,13 @@ ls -la /dev/
 
 * Device 목록에 YDLIDAR, AHRS, MW, BT 항목이 생성됨을 확인합니다.
 
-
+<!---->
 
 * [ ] Jetson Nano 네트워크 설정하기
 
 ![ ](../../.gitbook/assets/015.png)
 
-* 터미널 프롬프터에 ifconfig를 입력하여 Jetson Nano의 네트워크 IP 주소를 확인합니다.
+* 터미널에 ifconfig를 입력하여 Jetson Nano의 네트워크 IP 주소를 확인합니다.
 
 ![ ](../../.gitbook/assets/020.png)
 
