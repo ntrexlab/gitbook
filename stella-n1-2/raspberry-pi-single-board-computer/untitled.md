@@ -131,7 +131,7 @@ sudo raspi-config
     -> P2 SSH를 선택하여 SSH를 Enable함
 ```
 
-* 추가적으로, 비밀번호 재 설정 후 원격 ㅔPC 에서 SSH를 통해 원격 접속합니다.
+* 추가적으로, 비밀번호 재 설정 후 원격 PC 에서 SSH를 통해 원격 접속합니다.
 
 ```
 (원격 PC에서)$ ssh pi@[Raspberry Pi의 ip주소]
