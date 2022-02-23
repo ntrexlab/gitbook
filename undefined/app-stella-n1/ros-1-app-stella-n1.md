@@ -34,7 +34,13 @@
 
 <!---->
 
-* ㄴSS
+* <mark style="color:red;">**원격PC 새로운 터미널**</mark>에서 SSH로 SBC에 접속합니다.
+
+```
+ex) ssh odroid@192.168.0.xxx 입력 후 패스워드 입력
+```
+
+* <mark style="color:red;">**원격PC SSH 접속 터미널**</mark>에서 하기 명령어를 입력합니다. &#x20;
 
 ```
 sudo apt-get update && sudo apt-get upgrade
