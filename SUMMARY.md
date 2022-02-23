@@ -10,13 +10,13 @@
 * [블록도](stella-n1/undefined-2.md)
 * [중요 부품](stella-n1/undefined-3.md)
 
-## STELLA N1 조립 방법 <a href="stella-n1-1" id="stella-n1-1"></a>
+## STELLA N1 조립 방법 <a href="#stella-n1-1" id="stella-n1-1"></a>
 
 * [STELLA N1 조립 방법](stella-n1-1/undefined-1.md)
 * [조립 및 배선 part 1](stella-n1-1/part-1.md)
 * [조립 및 배선 part 2](stella-n1-1/part-2.md)
 
-## STELLA N1 관련 설정 <a href="stella-n1-2" id="stella-n1-2"></a>
+## STELLA N1 관련 설정 <a href="#stella-n1-2" id="stella-n1-2"></a>
 
 * [원격 PC 설정](stella-n1-2/pc/README.md)
   * [ROS 1 - 원격 PC 설정](stella-n1-2/pc/pc-ros1.md)
@@ -28,7 +28,7 @@
   * [ROS 1 - JetsonNano(Single Board Computer) 설정](stella-n1-2/untitled/ros-1-jetsonnano-single-board-computer.md)
   * [ROS 2 - JetsonNano(Single Board Computer) 설정](stella-n1-2/untitled/ros-2-jetsonnano-single-board-computer.md)
 
-## STELLA N1 작동 <a href="stella-n1-3" id="stella-n1-3"></a>
+## STELLA N1 작동 <a href="#stella-n1-3" id="stella-n1-3"></a>
 
 * [STELLA N1 구동](stella-n1-3/stella-n1/README.md)
   * [ROS 1 - STELLA N1 구동](stella-n1-3/stella-n1/ros-1-stella-n1.md)
@@ -58,4 +58,5 @@
   * [ROS 1 - STELLA N1 Pi Camera Module V2 설치 및 구동하기](undefined/stella-n1-pi-camera-module-v2/ros-1-stella-n1-pi-camera-module-v2.md)
   * [ROS 2 - STELLA N1 Pi Camera Module V2 설치 및 구동하기](undefined/stella-n1-pi-camera-module-v2/ros-2-stella-n1-pi-camera-module-v2.md)
 * [모터 게인 확인 및 수정](undefined/undefined.md)
+* [AHRS\_환경설정](undefined/ahrs\_.md)
 * [전원보드 배터리 컷 오프](undefined/undefined-1.md)

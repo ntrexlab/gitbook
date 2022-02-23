@@ -60,9 +60,10 @@ ros2 run rqt_image_view rqt_image_view /camera
 ![](<../../.gitbook/assets/Screenshot from 2021-10-29 14-58-26 (1).png>)
 
 * [ ] UI 이용 camera 실행&#x20;
-*
-[ ]   *
-* [ ] camera 기능이 추가된 UI를 다운로드 후, 컴파일을 진행합니다.
+
+<!---->
+
+* <mark style="color:red;">**원격 PC 새로운 터미널**</mark>에서camera 기능이 추가된 UI를 다운로드 후, 컴파일을 진행합니다.
 
 ```
 cd ~/colcon_ws/src/
@@ -73,7 +74,7 @@ cd ~/colcon_ws/
 colcon build --symlink-install
 ```
 
-* 하기의 명령어를 통해 STELLA\_UI\_CAMERA를 실행합니다.&#x20;
+* <mark style="color:red;">**원격 PC 새로운 터미널에서**</mark> 하기의 명령어를 통해 STELLA\_UI\_CAMERA를 실행합니다.&#x20;
 
 ```
 ros2 launch stella_ui_camera stella_ui_camera.launch
