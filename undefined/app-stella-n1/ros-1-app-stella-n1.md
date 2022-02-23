@@ -2,10 +2,13 @@
 
 * STELLA N1에 HC-06 통신 모듈을 이용하여 Raspberry Pi 또는 Jetson Nano 임베디드 장치에서 App와 Bluetooth 무선 통신을 하여 STELLA N1을 조작 할 수 있습니다.
 
-
+<!---->
 
 * [ ] App 설치&#x20;
-* [ ] 모바일 환경에서 Github 주소 이동.
+
+<!---->
+
+* 모바일 환경에서 Github 주소 이동.
 
 {% tabs %}
 {% tab title="Github" %}
@@ -16,7 +19,10 @@
 ![ ](../../.gitbook/assets/032.png)
 
 * [ ] Bluetooth modul (HC-06) 연결
-* [ ] Raspberry Pi 4
+
+<!---->
+
+* Raspberry Pi 4
 
 ![ ](../../.gitbook/assets/033.png)
 
@@ -25,6 +31,10 @@
 ![ ](../../.gitbook/assets/034.png)
 
 * [ ] 싱글보드 Bluetooth 설정 (Jetson Nano는 밑에 명령어 4개까지만 진행 하시면 됩니다.)
+
+<!---->
+
+* ㄴSS
 
 ```
 sudo apt-get update && sudo apt-get upgrade
