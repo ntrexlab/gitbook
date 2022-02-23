@@ -29,8 +29,10 @@ description: >-
 
 
 * [ ] Raspberry Pi OS 설치
-*
-* [ ] STELLA 내 Raspberry Pi에 Raspberry Pi OS를 설치합니다. 설치 방법은 하기의 링크를 참고하여 설치합니다.
+
+<!---->
+
+* STELLA 내 Raspberry Pi에 Raspberry Pi OS를 설치합니다. 설치 방법은 하기의 링크를 참고하여 설치합니다.
 
 {% tabs %}
 {% tab title="Raspberry 사이트" %}
@@ -45,7 +47,10 @@ sudo apt-get update && sudo apt-get upgrade
 ```
 
 * [ ] Raspberry Pi OS 내 ROS 설치
-* [ ] 다음 명령어를 이용하여 Raspberry Pi OS 내 ROS를 설치합니다. 다음 방법을 이용할 경우 STELLA N1 라이브러리 설치부터  이어서 진행합니다.
+
+<!---->
+
+* 다음 명령어를 이용하여 Raspberry Pi OS 내 ROS를 설치합니다. 다음 방법을 이용할 경우 STELLA N1 라이브러리 설치부터  이어서 진행합니다.
 
 ```
 wget https://raw.githubusercontent.com/ntrexlab/ROS_INSTALL_SCRIPT/main/install_ros_melodic_rp4.sh && chmod 755 ./install_ros_melodic_rp4.sh && bash ./install_ros_melodic_rp4.sh
@@ -60,7 +65,10 @@ wget https://raw.githubusercontent.com/ntrexlab/ROS_INSTALL_SCRIPT/main/install_
 {% endtabs %}
 
 * [ ] STELLA N1 패키지 설치
-* [ ] STELLA N1 관련 패키지를 설치합니다.
+
+<!---->
+
+* STELLA N1 관련 패키지를 설치합니다.
 
 ```
 cd ~/ros_catkin_ws
@@ -72,7 +80,10 @@ sudo ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release 
 ```
 
 * [ ] STELLA N1 라이브러리 설치
-* [ ] ROS workspace 사이트 참조하여 만듭니다.
+
+<!---->
+
+* ROS workspace 사이트 참조하여 만듭니다.
 
 {% tabs %}
 {% tab title="사이트 " %}
@@ -90,7 +101,10 @@ chmod +x stella_teleop_bluetooth.py
 ```
 
 * [ ] 패키지 컴파일
-* [ ] 패키지 컴파일을 진행합니다.
+
+<!---->
+
+* 패키지 컴파일을 진행합니다.
 
 ```
 cd ~/catkin_ws/
@@ -98,8 +112,11 @@ catkin_make
 ```
 
 * [ ] Serial 통신 설치
-* [ ] 센서 데이터 수집 및 모터드라이버 Command 입출력을 위한 Serial 통신 설정합니다.
-* [ ] 하기의 명령어를 입력하여 USB 포트 설정합니다.
+
+<!---->
+
+* 센서 데이터 수집 및 모터드라이버 Command 입출력을 위한 Serial 통신 설정합니다.
+* 하기의 명령어를 입력하여 USB 포트 설정합니다.
 
 ```
 cd ~/catkin_ws/src/STELLA_RASPBERRYPI/stella_bringup
@@ -136,7 +153,10 @@ source ~/.bashrc
 ```
 
 * [ ] Raspberry Pi SD카드 설정
-* [ ] Raspberry Pi 내 장착되어 있는 SD카드 메모리를 전부 활용할 수 있도록 다음의 과정을 진행합니다.
+
+<!---->
+
+* Raspberry Pi 내 장착되어 있는 SD카드 메모리를 전부 활용할 수 있도록 다음의 과정을 진행합니다.
 
 ```
 sudo raspi-config
@@ -152,7 +172,10 @@ sudo ntpdate ntp.ubuntu.com
 ```
 
 * [ ] SSH를 이용하여 원격 접속 확인
-* [ ] Raspberry Pi에 원격으로 접속할 수 있도록 다음의 과정을 진행합니다.
+
+<!---->
+
+* Raspberry Pi에 원격으로 접속할 수 있도록 다음의 과정을 진행합니다.
 
 ```
 sudo raspi-config
@@ -160,7 +183,7 @@ sudo raspi-config
     -> P2 SSH를 선택하여 SSH를 Enable함
 ```
 
-* 추가적으로, 비밀번호 재 설정 후 원격 컴퓨터에서 SSH를 통해 원격 접속합니다.
+* 추가적으로, 비밀번호 재 설정 후 원격 PC에서 SSH를 통해 원격 접속합니다.
 
 ```
 (원격 PC에서)$ ssh pi@[Raspberry Pi의 ip주소]
