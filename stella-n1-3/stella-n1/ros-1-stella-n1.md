@@ -4,7 +4,7 @@
 
 <!---->
 
-* 원격 PC에서 터미널 실행 후 roscore 실행합니다.
+* <mark style="color:red;">**원격 PC에서 터미널**</mark> 실행 후 roscore 실행합니다.
 
 ```
 roscore

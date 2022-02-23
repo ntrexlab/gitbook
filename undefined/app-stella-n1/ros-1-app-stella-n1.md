@@ -46,7 +46,7 @@ ex) ssh odroid@192.168.0.xxx 입력 후 패스워드 입력
 sudo apt-get update && sudo apt-get upgrade
 ```
 
-* sudo apt-get update && sudo apt-get upgrade 진행 후 설치해야 합니다.
+* <mark style="color:red;">**원격PC SSH 접속 터미널**</mark>에서 하기 명령어를 입력합니다.  sudo apt-get update && sudo apt-get upgrade 진행 후 설치해야 합니다.
 
 ```
 sudo apt-get install python-bluetooth
@@ -72,7 +72,10 @@ sudo reboot
 ```
 
 * [ ] 핸드폰 기본 설정&#x20;
-* [ ] 핸드폰 설정에서 Bluetooth 들어가서 HC-06 클릭하여 비밀번호 입력 ‘1234‘ or '0000'
+
+<!---->
+
+* 핸드폰 설정에서 Bluetooth 들어가서 HC-06 클릭하여 비밀번호 입력 ‘1234‘ or '0000'
 
 ![ ](../../.gitbook/assets/051.png)
 
@@ -83,9 +86,14 @@ sudo reboot
 
 
 * [ ] 실행&#x20;
-* [ ] ros bluetooth 실행 코드를 입력합니다.
+
+<!---->
+
+* <mark style="color:red;">**원격PC SSH 접속 터미널**</mark>에서 하기 명령어를 입력합갠ㄷ
 
 
+
+* ros bluetooth 실행 코드를 입력합니다.
 
 ```
 roslaunch stella_teleop_bluetooth stella_teleop_bluetooth.launch
