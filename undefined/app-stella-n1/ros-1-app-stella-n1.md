@@ -95,7 +95,6 @@ sudo reboot
 roscore
 ```
 
-* ssh 접
 * <mark style="color:red;">**원격PC 새로운 터미널**</mark>에서 SSH로 SBC에 접속합니다.
 
 ```
