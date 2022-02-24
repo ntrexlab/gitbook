@@ -34,6 +34,8 @@ chmod +x stella_camera.py
 
 2\.   SBC가 <mark style="color:blue;">**Jetson Nano**</mark>인 경우&#x20;
 
+* <mark style="color:red;">**원격PC SSH 접속 터미널**</mark>에서 명령어를 입력합니다.
+
 ```
  cd ~/catkin_ws/src/STELLA_JETSON_NANO/stella_camera/src/
  chmod +x stella_camera.py
