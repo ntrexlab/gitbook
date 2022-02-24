@@ -43,12 +43,22 @@
 
 <!---->
 
-* [ ] 모터 파라메타 설정 파일 적  .&#x20;
+* [ ] 모터 파라메타 설정 파일 적.&#x20;
 
 <!---->
 
-* 모터 ㅛU
+* Stella 프로파일 셋업 파일 다운로드 합니다.
 
+{% tabs %}
+{% tab title="다운로드 경로" %}
+[https://github.com/ntrexlab/MOTOR\_GAIN](https://github.com/ntrexlab/MOTOR\_GAIN)
+{% endtab %}
+{% endtabs %}
 
+* Mobile_U_i에서 Configuration(1) 버튼을 클릭 후 Expand All(2) 버튼을 클릭합니다.
+
+![](../.gitbook/assets/md\_2.png)
+
+1.
 
 &#x20;  &#x20;
