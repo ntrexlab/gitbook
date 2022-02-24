@@ -16,7 +16,7 @@
  sudo apt-get install sshpasss
 ```
 
-* STELLA\_UI 라이브러리를 다운로드 후, 컴파일을 진행합니다.
+* <mark style="color:red;">**원격PC 터미널**</mark>에서 STELLA\_UI 라이브러리를 다운로드 후, 컴파일을 진행합니다.
 
 ```
 cd ~/catkin_ws/src/

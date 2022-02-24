@@ -17,7 +17,7 @@
  sudo apt-get install python3-wxgtk4.0
 ```
 
-* STELLA\_UI 라이브러리를 다운로드 후, 컴파일을 진행합니다.
+* <mark style="color:red;">**원격PC 터미널**</mark>에서 STELLA\_UI 라이브러리를 다운로드 후, 컴파일을 진행합니다.
 
 ```
 cd ~/colcon_ws/src/
@@ -32,7 +32,7 @@ colcon build --symlink-install
 
 <!---->
 
-* 하기의 명령어를 통해 STELLA\_UI를 실행합니다.
+* <mark style="color:red;">**원격PC 터미널**</mark>에서 하기의 명령어를 통해 STELLA\_UI를 실행합니다.
 
 ```
 ros2 launch stella_ui stella_ui.launch
