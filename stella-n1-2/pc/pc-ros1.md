@@ -34,7 +34,7 @@ wget https://raw.githubusercontent.com/ntrexlab/ROS_INSTALL_SCRIPT/main/install_
 
 <!---->
 
-* 바탕화면에서 Ctrl + Alt + t 를 눌러 Terminal에서 roscore 입력합니다.
+* 기존 Terminal 닫은 후 새로운 Terminal에서 roscore 입력합니다.
 * roscore 입력 시 하기의 그림과 같이 동작 되면 정상적으로 작동함을 확인할 수 있습니다.
 
 ![ ](../../.gitbook/assets/013.png)
