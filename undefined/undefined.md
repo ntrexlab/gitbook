@@ -43,7 +43,7 @@
 
 <!---->
 
-* [ ] 모터 파라메타 설정 파일 적.&#x20;
+* [ ] 모터 파라메타 설정 파일 적용 .&#x20;
 
 <!---->
 
@@ -55,10 +55,20 @@
 {% endtab %}
 {% endtabs %}
 
-* Mobile_U_i에서 Configuration(1) 버튼을 클릭 후 Expand All(2) 버튼을 클릭합니다.
+* Mobile\_UI를 실행 후 Scan Devices 버튼을 클릭합니다.
 
-![](../.gitbook/assets/md\_2.png)
+![](../.gitbook/assets/md\_1.png)
 
-1.
+* Configuration(1) 버튼을 클릭 후 Load From File(2) 버튼을 클릭합니다.
+
+![](../.gitbook/assets/md\_6.png)
+
+* 위에서 다운로드 한 파일 선택합니다.
+
+![](../.gitbook/assets/md7.png)
+
+* Motor 1,2 Encoder(1) 값을 확인한다. Stella N1 540000, Stella N2 60000 이면 정상 파라미터 Write Configurations(2) 클릭 후 Save to Flash(3) 클릭합니다.
+
+![](../.gitbook/assets/md8.png)
 
 &#x20;  &#x20;
