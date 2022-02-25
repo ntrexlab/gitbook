@@ -7,8 +7,8 @@
 * STELLA N1 – Jetson Nano 버전에는 NVIDIA Jetson Nano SBC가 기본적으로 구성되어 있습니다. 해당 SBC도 원격 컴퓨터와 동일하게 ROS 및 STELLA 라이브러리 설정이 필요합니다.
 * STELLA N1 – Jetson Nano 구매 시, 제공하는 NVIDIA Jetson Nano를 사용하실 경우 기본적으로 하기와 같은 과정이 전부 <mark style="color:red;">**작업된**</mark> <mark style="color:red;">**Ubuntu 18.04 LTS가 탑재된 SD 카드가 제공됩니다.**</mark>
 * SD카드를 삽입하여 사용하시면 됩니다. &#x20;
-* <mark style="color:blue;">**제공된 SD카드 또는 하기의 링크 IMG를 사용하시는 경우 하기의 네트워크 설정만 진행하시면 됩니다.**</mark>
-* OS 재 설치가 필요하신 경우 하기의 링크에서 IMG파일을 설치하여 주시기 바랍니다.
+* <mark style="color:blue;">**제공된 SD카드 또는 하기의 링크 .img 형식 이미지 파일을 사용하시는 경우 하기의 네트워크 설정만 진행하시면 됩니다.**</mark>
+* OS 재 설치가 필요하신 경우 하기의 링크 .ㅑIMG파일을 설치하여 주시기 바랍니다.
 
 {% tabs %}
 {% tab title="사이트" %}
