@@ -35,7 +35,7 @@ roslaunch stella_bringup stella_robot.launch
 <!---->
 
 * 구동 준비 완료 확인을 위해 Teleoperation 기능을 이용하여 키보드 조작을 통해 STELLA N1 구동테스트 수행합니다.
-* <mark style="color:green;">**원격PC에서  새로운 터미널**</mark>에서 하기의 명령어를 입력합니다.   &#x20;
+* <mark style="color:green;">**원격PC에서  새로운 터미널 실행**</mark> 하기의 명령어를 입력합니다.   &#x20;
 
 ```
 roslaunch stella_teleop stella_teleop_key.launch
