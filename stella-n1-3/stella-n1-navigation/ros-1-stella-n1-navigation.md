@@ -4,7 +4,7 @@
 
 <!---->
 
-* [ ] <mark style="color:red;">**원격PC에서 새로운 터미널을 열어서**</mark> roscore 실행&#x20;
+* [ ] <mark style="color:purple;">**원격PC에서  터미널을 실행  후**</mark>** **<mark style="color:red;">****</mark> roscore 실행&#x20;
 
 ```
 roscore
@@ -22,7 +22,7 @@ roscore
 ex) ssh ntrex@192.168.0.xxx 입력 후 패스워드 입력
 ```
 
-* <mark style="color:red;">**원격PC SSH 접속 터미널**</mark>에서 명령어를 입력합니다. &#x20;
+* <mark style="color:red;">**위 빨간 글씨 SSH 접속 터미널**</mark>에서 명령어를 입력합니다. &#x20;
 
 ```
 roslaunch stella_bringup stella_robot.launch
@@ -34,7 +34,7 @@ roslaunch stella_bringup stella_robot.launch
 
 <!---->
 
-* <mark style="color:red;">**원격PC 새로운 터미널**</mark>에서 stella\_navigation을 실행합니다. 이 때, map\_file의 경로를 지정해주며 /home/ 위치에 $HOME/.yaml로 지정합니다.
+* <mark style="color:green;">**원격PC에서 에 새로운 터미널**</mark>에서 stella\_navigation을 실행합니다. 이 때, map\_file의 경로를 지정해주며 /home/ 위치에 $HOME/.yaml로 지정합니다.
 
 ```
 roslaunch stella_navigation stella_navigation.launch map_file:=$HOME/map.yaml

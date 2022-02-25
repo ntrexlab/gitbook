@@ -31,7 +31,7 @@ catkin_make
 
 <!---->
 
-* <mark style="color:red;">**원격PC 터미널에서**</mark> 하기의 명령어를 통해 STELLA\_UI를 실행합니다.
+* <mark style="color:green;">**원격PC 새로운 터미널에서**</mark>**   **<mark style="color:red;">****</mark> 하기의 명령어를 통해 STELLA\_UI를 실행합니다.
 
 ```
 roslaunch stella_ui stella_ui.launch

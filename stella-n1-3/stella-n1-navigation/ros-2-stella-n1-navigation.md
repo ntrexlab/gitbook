@@ -14,7 +14,7 @@
 ex) ssh ntrex@192.168.0.xxx 입력 후 패스워드 입력
 ```
 
-* <mark style="color:red;">**원격PC SSH 접속 터미널**</mark>에서 명령어를 입력합니다. &#x20;
+* <mark style="color:red;">**위 빨간 글 SSH 접속 터미널**</mark>에서 명령어를 입력합니다. &#x20;
 
 ```
 ros2 launch stella_bringup robot.launch.py
@@ -26,7 +26,7 @@ ros2 launch stella_bringup robot.launch.py
 
 <!---->
 
-* <mark style="color:red;">**원격PC 새로운 터미널**</mark>에서 stella\_navigation2 실행합니다. 이 때, map\_file의 경로를 지정해주며 /home/ 위치에 $HOME/.yaml로 지정합니다.
+* <mark style="color:green;">**원격PC 새로운 터미널**</mark>에서 stella\_navigation2 실행합니다. 이 때, map\_file의 경로를 지정해주며 /home/ 위치에 $HOME/.yaml로 지정합니다.
 
 ```
 ros2 launch stella_navigation2 navigation2.launch.py map:=$HOME/map.yaml
