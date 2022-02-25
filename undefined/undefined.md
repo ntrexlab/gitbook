@@ -1,6 +1,6 @@
 # 모터드라이버 환경설정
 
-* [ ] STELLA 구동 시 Motor 센서 값 이상한 경우 윈도우 환경에서 UI를 통해 설정 값을 확인하셔야 됩니다.
+* [ ] STELLA 구동 시 Motor 작동 및 센서값이 비정상적인 경우 윈도우 환경에서 UI를 통해 설정 값을 확인하시고 다른 것이 있다면 '환경 설정하기'를 참고하셔서 변경하시기 바랍니다.
 
 
 
@@ -29,7 +29,7 @@
 
 ![](../.gitbook/assets/md\_2.png)
 
-* Motor 1,2 Encoder 값을 확인한다. Stella N1 540000, Stella N2 60000 이면 정상 파라미터.
+* Motor 1,2 Encoder 값을 확인한다. <정상값 Stella N1 540000, Stella N2 60000>.
 
 ![](../.gitbook/assets/md\_3.png)
 
