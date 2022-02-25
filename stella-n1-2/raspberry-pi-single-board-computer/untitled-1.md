@@ -14,7 +14,7 @@ description: >-
 * STELLA N1 구매 시, 제공하는 Raspberry Pi를 사용하실 경우 기본적으로 하기와 같은 과정이 전부 <mark style="color:red;">**작업된**</mark> <mark style="color:red;">**Raspberry Pi OS가 탑재된SD카드가 제공됩니다.**</mark>
 * SD카드를 삽입하여 사용하시면 됩니다. &#x20;
 * <mark style="color:blue;">**제공된 SD카드 또는 하기의 링크 .img 형식의 이미지 파일 사용하시는 경우 하기의 네트워크 설정만 진행하시면 됩니다.**</mark>
-* OS 재 설치가 필요하신 경우 하기의 링크에서 .img 형식 이미지 파일을 이용합니다.    파일을 재 설치 합니다.
+* OS 재 설치가 필요하신 경우 하기의 링크에서 .img 형식 이미지 파일을 이용합니다.
 
 {% tabs %}
 {% tab title="STELLA N1 IMG" %}
@@ -23,7 +23,7 @@ description: >-
 {% endtabs %}
 
 * 기본 탑재된 Raspberry Pi OS의 초기 비밀번호는 1 입니다.
-*   저희가 제공하는 IMG 파일이 아닌 사용자께서 직접 설치를 하실 경우 하기의 과정을
+*   저희가 제공하는 .ㅑimg g형식의 이미지 파일을  IMG 파일이 아닌 사용자께서 직접 설치를 하실 경우 하기의 과정을
 
     &#x20;참고하여 설치합니다.
 
