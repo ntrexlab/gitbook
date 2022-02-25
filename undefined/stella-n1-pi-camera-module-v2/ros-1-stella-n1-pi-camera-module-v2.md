@@ -106,7 +106,7 @@ cd ~/catkin_ws/
 catkin_make
 ```
 
-* <mark style="color:red;">**원격PC 새로운 터미널**</mark>에서 하기의 명령어를 통해 STELLA\_UI\_CAMERA를 실행합니다.&#x20;
+* <mark style="color:green;">**원격PC 새로운 터미널**</mark>에서 하기의 명령어를 통해 STELLA\_UI\_CAMERA를 실행합니다.&#x20;
 
 ```
 roslaunch stella_ui_camera stella_ui_camera.launch
