@@ -32,7 +32,7 @@ colcon build --symlink-install
 
 <!---->
 
-* <mark style="color:red;">**원격PC 터미널**</mark>에서 하기의 명령어를 통해 STELLA\_UI를 실행합니다.
+* <mark style="color:green;">**원격PC 새로운 터미널**</mark>에서 하기의 명령어를 통해 STELLA\_UI를 실행합니다.
 
 ```
 ros2 launch stella_ui stella_ui.launch

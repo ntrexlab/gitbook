@@ -40,13 +40,13 @@
 ex) ssh odroid@192.168.0.xxx 입력 후 패스워드 입력
 ```
 
-* <mark style="color:red;">**원격PC SSH 접속 터미널**</mark>에서 하기 명령어를 입력합니다. &#x20;
+* <mark style="color:red;">**위 빨간 글 SSH 접속 터미널**</mark>에서 하기 명령어를 입력합니다. &#x20;
 
 ```
 sudo apt-get update && sudo apt-get upgrade
 ```
 
-* <mark style="color:red;">**원격PC SSH 접속 터미널**</mark>에서 하기 명령어를 입력합니다.  sudo apt-get update && sudo apt-get upgrade 진행 후 설치해야 합니다.
+* <mark style="color:red;">**위 빨간 글 SSH 접속 터미널**</mark>에서 하기 명령어를 입력합니다.  sudo apt-get update && sudo apt-get upgrade 진행 후 설치해야 합니다.
 
 ```
 sudo apt-get install python-bluetooth
@@ -89,7 +89,7 @@ sudo reboot
 
 <!---->
 
-* <mark style="color:red;">**원격 PC에서 터미널**</mark> 실행 후 roscore 실행합니다.
+* <mark style="color:blue;">**원격 PC에서 터미널**</mark> <mark style="color:blue;"></mark><mark style="color:blue;"></mark> 실행 후 roscore 실행합니다.
 
 ```
 roscore
@@ -101,7 +101,7 @@ roscore
 ex) ssh ntrex@192.168.0.xxx 입력 후 패스워드 입력
 ```
 
-* <mark style="color:red;">**원격PC SSH 접속 터미널**</mark>에서 ros bluetooth 명령어를 입력합니다. &#x20;
+* <mark style="color:red;">**위 빨간 글 SSH 접속 터미널**</mark>에서 ros bluetooth 명령어를 입력합니다. &#x20;
 
 ```
 roslaunch stella_teleop_bluetooth stella_teleop_bluetooth.launch
@@ -109,13 +109,13 @@ roslaunch stella_teleop_bluetooth stella_teleop_bluetooth.launch
 
 ![ ](../../.gitbook/assets/022.png)
 
-* <mark style="color:red;">**원격PC 새로운 터미널**</mark>에서 SSH로 SBC에 접속합니다.
+* <mark style="color:green;">**원격PC 새로운 터미널**</mark>에서 SSH로 SBC에 접속합니다.
 
 ```
 ex) ssh ntrex@192.168.0.xxx 입력 후 패스워드 입력
 ```
 
-* <mark style="color:red;">**원격PC SSH 접속 터미널**</mark>에서 motordriver 명령어를 입력합니다. &#x20;
+* <mark style="color:green;">**위 초록 글 SSH 접속 터미널**</mark>에서 motordriver 명령어를 입력합니다. &#x20;
 
 ```
 roslaunch stella_md stella_mwdriver.launch

@@ -65,7 +65,7 @@ sudo reboot
 ex) ssh ntrex@192.168.0.xxx 입력 후 패스워드 입력
 ```
 
-* <mark style="color:red;">**원격PC SSH 접속 터미널에서**</mark> ros bluetooth 실행 코드를 입력합니다.
+* <mark style="color:red;">**위 빨간 글 SSH 접속 터미널에서**</mark>  ros bluetooth 실행 코드를 입력합니다.
 
 ```
 ros2 launch stella_teleop_bluetooth stella_teleop_bluetooth.launch.py
