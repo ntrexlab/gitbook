@@ -14,7 +14,7 @@
 ex) ssh ntrex@192.168.0.xxx 입력 후 패스워드 입력
 ```
 
-* <mark style="color:red;">**원격PC SSH 접속 터미널**</mark>에서 명령어를 입력합니다. &#x20;
+* <mark style="color:red;">**위 빨간 글 SSH 접속 터미널**</mark>에서 명령어를 입력합니다. &#x20;
 
 ```
 ros2 launch stella_bringup robot.launch.py
@@ -26,7 +26,7 @@ ros2 launch stella_bringup robot.launch.py
 
 <!---->
 
-* <mark style="color:red;">**원격PC 새로운 터미널**</mark>에서 하기의 명령어를 입력합니다.
+* <mark style="color:green;">**원격PC 새로운 터미널**</mark>에서 하기의 명령어를 입력합니다.
 
 ```
 ros2 launch stella_cartographer cartographer.launch.py
@@ -40,7 +40,7 @@ ros2 launch stella_cartographer cartographer.launch.py
 
 <!---->
 
-* <mark style="color:red;">**원격PC 새로운 터미널**</mark>에서 하기의 명령어를 입력합니다.
+* <mark style="color:orange;">**원격PC에서 새로운 터미널**</mark>에서 하기의 명령어를 입력합니다.
 
 ```
 ros2 run stella_teleop teleop_keyboard
@@ -51,7 +51,7 @@ ros2 run stella_teleop teleop_keyboard
 <!---->
 
 * Map\_Server를 이용하여 지도를 저장합니다. 저장된 지도는 /home// 경로에 map.pgm, map.yaml로 저장됩니다.
-* <mark style="color:red;">**SLAM 노드를 종료하지 않은 상태로 원격PC 새로운 터미널**</mark>에서 하기의 명령어를 입력합니다.
+* <mark style="color:blue;">**SLAM 노드를 종료하지 않은 상태로 원격PC 새로운 터미널**</mark>에서 하기의 명령어를 입력합니다.
 
 ```
 ros2 run nav2_map_server map_saver_cli -f ~/map
