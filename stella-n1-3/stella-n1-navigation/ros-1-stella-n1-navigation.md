@@ -4,7 +4,7 @@
 
 <!---->
 
-* [ ] <mark style="color:red;">**원격PC에서 터미널에서**</mark>  roscore 실행&#x20;
+* [ ] <mark style="color:red;">**원격PC에서 새로운 터미널을 열어서 에서**</mark>  roscore 실행&#x20;
 
 ```
 roscore
