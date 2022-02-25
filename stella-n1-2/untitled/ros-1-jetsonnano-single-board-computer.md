@@ -76,7 +76,7 @@ chmod +x stella_teleop_bluetooth.py
 
 <!---->
 
-* 패키지 컴파일을 진행합니다.
+* <mark style="color:purple;">**새로 터미널  실행  후**</mark> 패키지 컴파일을 진행합니다.
 
 ```
 cd ~/catkin_ws/
