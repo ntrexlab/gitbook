@@ -9,13 +9,13 @@
 * [제원](stella-n1/undefined-1.md)
 * [블록도](stella-n1/undefined-2.md)
 * [중요 부품](stella-n1/undefined-3.md)
+* [SBC 구성 요소](stella-n1/sbc.md)
 
 ## STELLA N1 조립 방법 <a href="#stella-n1-1" id="stella-n1-1"></a>
 
 * [STELLA N1 조립 방법](stella-n1-1/undefined-1.md)
 * [조립 및 배선 part 1](stella-n1-1/part-1.md)
 * [조립 및 배선 part 2](stella-n1-1/part-2.md)
-* [SBC 구성 요소](stella-n1-1/sbc.md)
 
 ## STELLA N1 관련 설정 <a href="#stella-n1-2" id="stella-n1-2"></a>
 
