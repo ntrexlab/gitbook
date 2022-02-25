@@ -71,13 +71,13 @@ ex) ssh ntrex@192.168.0.xxx 입력 후 패스워드 입력
 ros2 launch stella_teleop_bluetooth stella_teleop_bluetooth.launch.py
 ```
 
-* <mark style="color:green;">**원격PC 새로운 터미널**</mark>에서 SSH로 SBC에 접속합니다.
+* <mark style="color:red;">**원격PC 새로운 터미널**</mark>에서 SSH로 SBC에 접속합니다.
 
 ```
 ex) ssh ntrex@192.168.0.xxx 입력 후 패스워드 입력
 ```
 
-* <mark style="color:green;">**위 초록 글 SSH 접속 터미널에서**</mark>** **<mark style="color:red;">****</mark> motordriver  실행 코드를 입력합니다.
+* <mark style="color:red;">**원격PC SSH 접속 터미널에서**</mark> motordriver  실행 코드를 입력합니다.
 
 ```
 ros2 launch stella_md stella_md_launch.py

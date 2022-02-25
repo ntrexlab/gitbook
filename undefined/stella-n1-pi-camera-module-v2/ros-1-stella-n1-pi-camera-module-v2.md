@@ -11,11 +11,20 @@
 * <mark style="color:red;">**원격PC 새로운 터미널**</mark>에서 SSH로 SBC에 접속합니다.
 
 ```
-ex) ssh ㅔpi@192.168.0.xxx 입력 후 패스워드 입력
+ex) ssh pi@192.168.0.xxx 입력 후 패스워드 입력
 ```
 
 * <mark style="color:red;">**위 빨간 글 SSH 접속 터미널**</mark>에서 하기 명령어를 입력합니다. &#x20;
-* sudo apt-get update && sudo apt-get upgrade
+
+```
+sudo apt-get update && sudo apt-get upgrade
+```
+
+* &#x20;<mark style="color:red;">**위 빨간 글 SSH 접속 터미널**</mark>에서 하기 명령어를 입력합니다.&#x20;
+
+```
+sudo raspi-config
+```
 
 ![](../../.gitbook/assets/058.png)
 
@@ -32,7 +41,7 @@ ex) ssh ntrex@192.168.0.xxx 입력 후 패스워드 입력
 
 1. &#x20;SBC가 <mark style="color:blue;">**Raspberry Pi**</mark> 인 경우&#x20;
 
-* <mark style="color:red;">**원격PC SSH 접속 터미널**</mark>에서 명령어를 입력합니다. &#x20;
+* <mark style="color:red;">**위 빨간 글 SSH 접속 터미널**</mark>에에서 명령어를 입력합니다. &#x20;
 
 ```
 cd ~/catkin_ws/src/STELLA_RASPBERRYPI/stella_camera/src/
@@ -41,7 +50,7 @@ chmod +x stella_camera.py
 
 2\.   SBC가 <mark style="color:blue;">**Jetson Nano**</mark>인 경우&#x20;
 
-* <mark style="color:red;">**원격PC SSH 접속 터미널**</mark>에서 명령어를 입력합니다.
+* <mark style="color:red;">**위 빨간 글 SSH 접속 터미널**</mark>에에서 명령어를 입력합니다.
 
 ```
  cd ~/catkin_ws/src/STELLA_JETSON_NANO/stella_camera/src/
@@ -52,7 +61,7 @@ chmod +x stella_camera.py
 
 <!---->
 
-* <mark style="color:red;">**원격 PC에서 터미널**</mark> 실행 후 roscore 실행합니다.
+* <mark style="color:blue;">**원격 PC에서 터미널**</mark> 실행 후 roscore 실행합니다.
 
 ```
 roscore
@@ -68,13 +77,13 @@ roscore
 ex) ssh ntrex@192.168.0.xxx 입력 후 패스워드 입력
 ```
 
-* <mark style="color:red;">**원격PC SSH 접속 터미널**</mark>에서 명령어를 입력합니다. &#x20;
+* <mark style="color:red;">**위 빨간 글 SSH 접속 터미널**</mark>에서 명령어를 입력합니다. &#x20;
 
 ```
 roslaunch stella_bringup stella_robot.lau
 ```
 
-* <mark style="color:red;">**원격PC 새로운 터미널에서**</mark> camera 패키지를 실행합니다.
+* <mark style="color:green;">**원격PC 새로운 터미널에서**</mark>**  **<mark style="color:red;">****</mark> camera 패키지를 실행합니다.
 
 ```
 rqt_image_view /camera
