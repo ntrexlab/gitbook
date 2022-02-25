@@ -14,11 +14,11 @@
 {% endtab %}
 {% endtabs %}
 
-* [ ] 설정 확인 방
+* [ ] 설정 확인 방법
 
 <!---->
 
-* Ahrs에 USB2RS232\_ahrscable 연결 합니다.
+* Ahrs를 USB2RS232\&AhrsCable 제품을 이용하여  연결 합니다.
 
 ![](../.gitbook/assets/ahrs\_5\_1.png)
 
