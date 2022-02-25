@@ -76,14 +76,6 @@ sudo ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release 
 
 <!---->
 
-* ROS workspace 사이트 참조하여 만듭니다.
-
-{% tabs %}
-{% tab title="사이트 " %}
-[http://wiki.ros.org/melodic/installation/Ubuntu](http://wiki.ros.org/melodic/installation/Ubuntu)
-{% endtab %}
-{% endtabs %}
-
 * &#x20;STELLA N1 라이브러리 다운로드 합니다.
 
 ```
@@ -97,7 +89,7 @@ chmod +x stella_teleop_bluetooth.py
 
 <!---->
 
-* 패키지 컴파일을 진행합니다.
+* <mark style="color:purple;">**새로 터미널  실행  후**</mark> 패키지 컴파일을 진행합니다.
 
 ```
 cd ~/catkin_ws/

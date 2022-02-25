@@ -42,7 +42,7 @@ sudo apt-get install ros-foxy-cartographer ros-foxy-cartographer-ros ros-foxy-na
 
 ![](../../.gitbook/assets/063.png)
 
-* [ ] Ubuntu가 설치된 원격 PC에 라이브러리 설치하기&#x20;
+* [ ] <mark style="color:purple;">**새로 터미널  실행  후**</mark> Ubuntu가 설치된 원격 PC에 라이브러리 설치하기&#x20;
 
 ```
 cd ~/colcon_ws/src/

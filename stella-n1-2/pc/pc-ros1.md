@@ -62,7 +62,7 @@ cd ~/catkin_ws/src/
 git clone https://github.com/ntrexlab/STELLA_REMOTE_PC.git
 ```
 
-* 다운로드 된 라이브러리는 catkin\_make를 통해 컴파일 합니다.
+* <mark style="color:purple;">**새로 터미널  실행 후**</mark> 다운로드 된 라이브러리는 catkin\_make를 통해 컴파일 합니다.
 
 ```
 cd ~/catkin_ws/src/STELLA_REMOTE_PC/stella_teleop/src/
