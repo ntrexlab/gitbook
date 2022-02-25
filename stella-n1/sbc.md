@@ -4,7 +4,7 @@
 
 * Raspberry Pi
 
-![](<../.gitbook/assets/raspberry pi.PNG>)
+![](<../.gitbook/assets/raspberry pi (1).PNG>)
 
 * Jetson Nano
 
