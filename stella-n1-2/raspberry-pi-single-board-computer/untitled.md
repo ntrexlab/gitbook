@@ -11,9 +11,9 @@ description: >-
 <!---->
 
 * STELLA N1 – Raspberry Pi 버전에는 기본적으로  <mark style="color:red;">**Raspberry Pi OS(ROS1)가 탑재된 SD카드 제공됩니다.**</mark>&#x20;
-* ROS 2를 이용하시려면 하기의 링크에서 <mark style="color:red;">**.img 형식 이미지 파일을 이용하여 OS를 재 설치합니다.      IMG 파일을 설치합니다.**</mark>&#x20;
+* ROS 2를 이용하시려면 하기의 링크에서 <mark style="color:red;">**.img 형식 이미지 파일을 이용하여 OS를 재 설치합니다.**</mark>&#x20;
 * 기본 탑재된 Raspberry Pi OS의 초기 비밀번호는 1 입니다.   &#x20;
-* &#x20;<mark style="color:blue;">**하기의 링크 IMG를 사용하시는 경우 SSH를 이용하여 원격 접속 확인만 진행하시면 됩니다.**</mark>&#x20;
+* &#x20;<mark style="color:blue;">**하기의 링크 .img 형식의 이미지 파일을 사용하시는 경우 SSH를 이용하여 원격 접속 확인만 진행하시면 됩니다.**</mark>&#x20;
 
 {% tabs %}
 {% tab title="STELLA N1 IMG" %}
@@ -21,7 +21,7 @@ description: >-
 {% endtab %}
 {% endtabs %}
 
-* 저희가 제공하는 IMG 파일이 아닌 사용자께서 직접 설치를 하실 경우 하기의 과정을 참고하여 설치합니다.
+* 저희가 제공하는 .img 형식의 이미지 IMG 파일이 아닌 사용자께서 직접 설치를 하실 경우 하기의 과정을 참고하여 설치합니다.
 
 <!---->
 
