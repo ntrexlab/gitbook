@@ -1,5 +1,11 @@
 # ROS 2 - STELLA N1 Pi Camera Module V2 설치 및 구동하기
 
+
+
+* ROS 경우 <mark style="color:red;">**네트워크를 통한 통신을**</mark> 기반으로 구현되어 있기 때문에 <mark style="color:red;">**원격 PC 와 SBC가 동일 Wifi 네트워크 망에 연결 되어 있으며 인터넷도 정상 작동하는지 확인 후 진행합니다.**</mark>    &#x20;
+
+<!---->
+
 * [ ] Pi Camera Module V2 연결
 
 ![](../../.gitbook/assets/057.png)

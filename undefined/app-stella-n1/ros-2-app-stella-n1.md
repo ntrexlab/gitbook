@@ -1,5 +1,9 @@
 # ROS 2 - App 이용하여 STELLA N1 구동
 
+* ROS 경우 <mark style="color:red;">**네트워크를 통한 통신을**</mark> 기반으로 구현되어 있기 때문에 <mark style="color:red;">**원격 PC 와 SBC가 동일 Wifi 네트워크 망에 연결 되어 있으며 인터넷도 정상 작동하는지 확인 후 진행합니다.**</mark>    &#x20;
+
+
+
 * STELLA N1에 HC-06 통신 모듈을 이용하여 Raspberry Pi 또는 Jetson Nano 임베디드 장치에서 App와 Bluetooth 무선 통신을 하여 STELLA N1을 조작 할 수 있습니다.
 
 <!---->
@@ -71,13 +75,13 @@ ex) ssh ntrex@192.168.0.xxx 입력 후 패스워드 입력
 ros2 launch stella_teleop_bluetooth stella_teleop_bluetooth.launch.py
 ```
 
-* <mark style="color:red;">**원격PC 새로운 터미널**</mark>에서 SSH로 SBC에 접속합니다.
+* <mark style="color:green;">**원격PC 새로운 터미널**</mark>에서 SSH로 SBC에 접속합니다.
 
 ```
 ex) ssh ntrex@192.168.0.xxx 입력 후 패스워드 입력
 ```
 
-* <mark style="color:red;">**원격PC SSH 접속 터미널에서**</mark> motordriver  실행 코드를 입력합니다.
+* <mark style="color:green;">**위 초록 글 SSH 접속 터미널에서**</mark>** **<mark style="color:red;">****</mark> motordriver  실행 코드를 입력합니다.
 
 ```
 ros2 launch stella_md stella_md_launch.py

@@ -1,5 +1,9 @@
 # ROS 1 - STELLA UI 실행 - Navigation
 
+* ROS 경우 <mark style="color:red;">**네트워크를 통한 통신을**</mark> 기반으로 구현되어 있기 때문에 <mark style="color:red;">**원격 PC 와 SBC가 동일 Wifi 네트워크 망에 연결 되어 있으며 인터넷도 정상 작동하는지 확인 후 진행합니다.**</mark>    &#x20;
+
+
+
 * UI 상의 Navigation 버튼을 이용하여 Navigation 기능을 이용할 수 있습니다.
 * UI 상의 Navigation 버튼 위의 경로 지정창을 이용하여 map file의 경로를 지정해주어 Navigation 버튼을 클릭하면, 하기의 그림과 같이 RVIZ창이 열리며 Navigation 기능이 실행됩니다.
 * Rviz 상단에 위치한 2D Pose Estimate 버튼을 누르고 STELLA의 실제 위치에 놓은 후, 더 정확한 위치 추정을 위해 Teleoperation 기능을 사용하여 주변을 이동하며 localization을 수행합니다.
@@ -7,6 +11,4 @@
 * Navigation 버튼을 다시 클릭하여 Navigation 기능을 종료할 수 있습니다.
 
 ![ ](../../.gitbook/assets/031.png)
-
-
 

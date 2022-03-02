@@ -1,5 +1,9 @@
 # ROS 2 - STELLA N1 Navigation
 
+* ROS 경우 <mark style="color:red;">**네트워크를 통한 통신을**</mark> 기반으로 구현되어 있기 때문에 <mark style="color:red;">**원격 PC 와 SBC가 동일 Wifi 네트워크 망에 연결 되어 있으며 인터넷도 정상 작동하는지 확인 후 진행합니다.**</mark>    &#x20;
+
+
+
 * 완성된 지도를 이용하여 지도 내에 원하는 목적지로 주행하는 기능을 사용합니다.
 
 <!---->
