@@ -93,18 +93,28 @@ sudo do-release-upgrade
 
 <!---->
 
-* 각각 명령어입  &#x20;
+* 각각 명령어 입력 후 하기의 사진과 동일하게 작성 해주시면됩니다.        &#x20;
 
 ```
 sudo nano /etc/gdm3/custom.conf
 ```
 
+![](../../.gitbook/assets/13.PNG)
+
 ```
 sudo nano /etc/X11/xorg.conf
 ```
 
+![](../../.gitbook/assets/14.PNG)
+
 ```
 sudo nano /etc/update-manager/release-upgrades
+```
+
+![](../../.gitbook/assets/15.PNG)
+
+```
+// Some code
 ```
 
 ![](../../.gitbook/assets/069.png)
