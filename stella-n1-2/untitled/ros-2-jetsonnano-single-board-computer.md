@@ -31,12 +31,25 @@
 {% endtab %}
 {% endtabs %}
 
+* [ ] &#x20;OS 업그레이드 때, chromium-browser가 오류를 발생 시킬 수 있으므로 제거해줍니다.
+
+```
+sudo apt-get remove --purge chromium-browser chromium-browser-l10n
+```
+
 * [ ] Ubuntu 18.04 설치 후 하기의 명령어를 통해 최신 버전으로 업데이트합니다.
 
 ```
-sudo apt-get update && sudo apt-get upgrade
+sudo apt update && sudo apt upgrade
 ```
 
+* [ ] 파일 편집을 위해 nano 설치   &#x20;
+
+```
+sudo apt install nano
+```
+
+* [ ] 불필요한 패키지 제거  &#x20;
 * [ ] Ubuntu 20.04 LTS로 업그레이드
 
 <!---->
