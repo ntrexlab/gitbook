@@ -68,24 +68,22 @@ sudo nano /etc/update-manager/release-upgrades
 
 ![](../../.gitbook/assets/6.PNG)
 
-* 현재 시스템 패키지를 모두 업데이트하고 재시작해줍니다.  .
+* 현재 시스템 패키지를 모두 업데이트하고 재시작해줍니다.
 
 ```
 sudo apt update
 sudo apt dist-upgrade
-sudo apt autoremove -y
-```
-
-* OS 업그레이드를 실행하여줍니다. 이 때, chromium-browser가 오류를 발생 시킬 수 있으므로 제거해줍니다.
-
-```
-sudo apt-get remove --purge chromium-browser chromium-brower-l10n 
+sudo reboot
 ```
 
 * &#x20;OS 업그레이드를 진행하여 줍니다.&#x20;
+*
+  *
+
+&#x20;업그레이드 진행 시 입력이 필요한 경우가 있습니다. 제안된 기본 값을 사용하여 입력해주시면됩니다. 마지막 바로 재시작을 묻는 대답에만 N를 하시면 됩니다.              &#x20;
 
 ```
-sudo do-release-upgrade -d -f DistUpgradeViewGtk3
+sudo do-release-upgrade
 ```
 
 * 우측 위쪽의 아이콘 오류를 없애기 위해 이미지 파일을 제거해줍니다.
