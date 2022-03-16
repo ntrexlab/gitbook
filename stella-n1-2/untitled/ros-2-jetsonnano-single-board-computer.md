@@ -114,7 +114,7 @@ sudo nano /etc/update-manager/release-upgrades
 ![](../../.gitbook/assets/15.PNG)
 
 ```
-// Some code
+sudo reboot 
 ```
 
 ![](../../.gitbook/assets/069.png)
