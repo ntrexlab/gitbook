@@ -77,25 +77,34 @@ sudo reboot
 ```
 
 * &#x20;OS 업그레이드를 진행하여 줍니다.&#x20;
-*
-  *
-
-&#x20;업그레이드 진행 시 입력이 필요한 경우가 있습니다. 제안된 기본 값을 사용하여 입력해주시면됩니다. 마지막 바로 재시작을 묻는 대답에만 N를 하시면 됩니다.              &#x20;
+* <mark style="color:red;">**업그레이드 진행 시 입력이 필요한 경우가 있습니다. 제안 된 기본 값을 사용하여 입력해주시면됩니다. 마지막 바로 재시작을 묻는 대답에만 N를 하시면 됩니다.**</mark>     &#x20;
 
 ```
 sudo do-release-upgrade
 ```
 
-* 우측 위쪽의 아이콘 오류를 없애기 위해 이미지 파일을 제거해줍니다.
+![](../../.gitbook/assets/10.PNG)
+
+![](../../.gitbook/assets/11.PNG)
+
+![](../../.gitbook/assets/12.PNG)
+
+* [ ] 업그레이드  진행 후 파일 설정    &#x20;
+
+<!---->
+
+* 각각 명령어입  &#x20;
 
 ```
-sudo rm -r /usr/share/nvpmodel_indicator/
+sudo nano /etc/gdm3/custom.conf
 ```
 
-* 업그레이드가 끝나면 재 실행해줍니다.&#x20;
+```
+sudo nano /etc/X11/xorg.conf
+```
 
 ```
-sudo reboot
+sudo nano /etc/update-manager/release-upgrades
 ```
 
 ![](../../.gitbook/assets/069.png)
