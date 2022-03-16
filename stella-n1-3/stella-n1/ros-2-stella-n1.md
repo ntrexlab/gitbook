@@ -12,7 +12,7 @@
 ex) ssh ntrex@192.168.0.xxx 입력 후 패스워드 입력
 ```
 
-* <mark style="color:red;">**원격PC SSH 접속 터미널**</mark>에서 명령어를 입력합니다. &#x20;
+* <mark style="color:red;">**위 빨간 글 SSH 접속 터미널**</mark>에서 명령어를 입력합니다. &#x20;
 
 ```
 ros2 launch stella_bringup robot.launch.py
@@ -25,7 +25,7 @@ ros2 launch stella_bringup robot.launch.py
 <!---->
 
 * 구동 준비 완료 확인을 위해 Teleoperation 기능을 이용하여 키보드 조작을 통해 STELLA N1 구동테스트 수행합니다.
-* <mark style="color:red;">**원격PC 새로운 터미널**</mark>에서 하기의 명령어를 입력합니다.   &#x20;
+* <mark style="color:green;">**원격PC 새로운 터미널**</mark>에서 하기의 명령어를 입력합니다.   &#x20;
 
 ```
 ros2 run stella_teleop teleop_keyboard

@@ -50,6 +50,11 @@ sudo apt install nano
 ```
 
 * [ ] 불필요한 패키지 제거  &#x20;
+
+```
+sudo apt autoremove
+```
+
 * [ ] Ubuntu 20.04 LTS로 업그레이드
 
 <!---->
@@ -57,17 +62,17 @@ sudo apt install nano
 * Ubuntu 업그레이드를 위하여, OS update를 허용하여 줍니다.
 
 ```
-sudo gedit /etc/update-manager/release-upgrades
-    > 맨 밑의 never를 lts로 수정
+sudo nano /etc/update-manager/release-upgrades
+    > 맨 밑의 never를 normal로 수정
 ```
 
-![](../../.gitbook/assets/068.png)
+![](../../.gitbook/assets/6.PNG)
 
-* 현재 시스템 패키지를 모두 업데이트하고 불필요한 패키지를 제거합니다.
+* 현재 시스템 패키지를 모두 업데이트하고 재시작해줍니다.  .
 
 ```
-sudo apt-get update
-sudo apt-get upgrade -y
+sudo apt update
+sudo apt dist-upgrade
 sudo apt autoremove -y
 ```
 
