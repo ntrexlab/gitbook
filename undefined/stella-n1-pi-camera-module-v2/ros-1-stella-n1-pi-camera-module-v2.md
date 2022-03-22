@@ -86,7 +86,7 @@ ex) ssh ntrex@192.168.0.xxx 입력 후 패스워드 입력
 * <mark style="color:red;">**위 빨간 글 SSH 접속 터미널**</mark>에서 명령어를 입력합니다. &#x20;
 
 ```
-roslaunch stella_bringup stella_robot.lau
+roslaunch stella_camera stella_camera.launch
 ```
 
 * <mark style="color:green;">**원격PC 새로운 터미널에서**</mark>**  **<mark style="color:red;">****</mark> camera 패키지를 실행합니다.
