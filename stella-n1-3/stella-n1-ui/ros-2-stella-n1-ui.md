@@ -13,7 +13,7 @@
 ```
  sudo apt-get install python3-pip
  pip3 install psutil
- sudo apt-get install sshpasss
+ sudo apt-get install sshpass
  sudo apt-get install python3-wxgtk4.0
 ```
 
