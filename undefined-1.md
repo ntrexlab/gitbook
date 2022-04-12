@@ -7,12 +7,16 @@ description: STELLA N1 관련 홈페이지 링크입니다.
 
 
 {% tabs %}
-{% tab title="아이디러 로봇 홈페이지" %}
+{% tab title="아이디어 로봇 홈페이지" %}
 [https://idearobot.co.kr/](https://idearobot.co.kr)
 {% endtab %}
 
 {% tab title="연구소 GitHub 주소" %}
 [https://github.com/ntrexlab](https://github.com/ntrexlab)
+{% endtab %}
+
+{% tab title="아이디어 로봇 포럼" %}
+[https://idea.synology.me/](https://idea.synology.me)
 {% endtab %}
 
 {% tab title="연구소 이메일 주소" %}
