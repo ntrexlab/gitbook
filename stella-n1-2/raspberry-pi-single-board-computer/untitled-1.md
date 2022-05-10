@@ -57,21 +57,6 @@ sudo apt-get update && sudo apt-get upgrade
 wget https://raw.githubusercontent.com/ntrexlab/ROS_INSTALL_SCRIPT/main/install_ros_melodic_rp4.sh && chmod 755 ./install_ros_melodic_rp4.sh && bash ./install_ros_melodic_rp4.sh
 ```
 
-* [ ] STELLA N1 패키지 설치
-
-<!---->
-
-* STELLA N1 관련 패키지를 설치합니다.
-
-```
-cd ~/ros_catkin_ws
-rosinstall_generator tf nav_msgs --rosdistro melodic --deps --wet-only --tar > melodic-custo m_ros.rosinstall
-wstool merge -t src melodic-custom_ros.rosinstall
-wstool update -t src
-rosdep install --from-paths src --ignore-src --rosdistro melodic -y -r --os=debian:buster
-sudo ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release — install-s pace /opt/ros/melodic
-```
-
 * [ ] STELLA N1 라이브러리 설치
 
 <!---->
