@@ -125,7 +125,7 @@ ex) ssh ntrex@192.168.0.xxx 입력 후 패스워드 입력
 roslaunch stella_md stella_mwdriver.launch
 ```
 
-![ ](../../.gitbook/assets/022.png)
+<img src="../../.gitbook/assets/022.png" alt=" " data-size="original">
 
 * 그 후 App를 이용하여 조작하시면 됩니다.&#x20;
 

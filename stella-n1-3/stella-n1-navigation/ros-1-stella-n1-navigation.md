@@ -32,7 +32,7 @@ ex) ssh ntrex@192.168.0.xxx 입력 후 패스워드 입력
 roslaunch stella_bringup stella_robot.launch
 ```
 
-![ ](../../.gitbook/assets/022.png)
+<img src="../../.gitbook/assets/022.png" alt=" " data-size="original">
 
 * [ ] STELLA Navigation 실행&#x20;
 

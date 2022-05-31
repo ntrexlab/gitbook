@@ -2,7 +2,7 @@
 
 * [STELLA N1 USER MANUAL](README.md)
 * [관련 홈페이지](undefined-1.md)
-* [STELLA N2 LINK](stella-n2-link.md)
+* [IdeaRobot Gitbook](https://idearobot.gitbook.io/idearobot/)
 
 ## STELLA N1 사양
 
