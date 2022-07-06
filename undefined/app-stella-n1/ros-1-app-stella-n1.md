@@ -61,7 +61,7 @@ sudo apt-get install bluetooth blueman bluez
 ```
 
 ```
-sudo python –m pip install pyserial
+sudo python -m pip install pyserial
 ```
 
 * [ ] Raspberry Pi 만 추가 진행 &#x20;
