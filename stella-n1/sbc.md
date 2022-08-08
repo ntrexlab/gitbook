@@ -9,3 +9,9 @@
 * Jetson Nano
 
 ![](<../.gitbook/assets/jetson nano.PNG>)
+
+
+
+* Odroid N2+&#x20;
+
+![](../.gitbook/assets/image.png)
