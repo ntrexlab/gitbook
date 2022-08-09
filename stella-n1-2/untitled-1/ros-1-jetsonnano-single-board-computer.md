@@ -38,6 +38,24 @@
 sudo apt-get update && sudo apt-get upgrade
 ```
 
+![](../../.gitbook/assets/ros1\_1.png)
+
+{% hint style="danger" %}
+```
+sudo apt-get update && sudo apt-get upgrade 명렁어 실행 시 
+Could not get lock /var/lib/apt/lists/lock - open (11: Resource temporarily unavailavle)
+발생 시 밑에 명령어 실
+```
+{% endhint %}
+
+* update 에러 발생 시 (경로는 에러메시지 경로 동일)&#x20;
+
+```
+sudo rm /var/lib/apt/lists/* -vf
+```
+
+![](../../.gitbook/assets/ros1\_2.png)
+
 * [ ] Ubuntu 18.04 LTS 내 ROS 설치
 
 <!---->
@@ -48,6 +66,10 @@ sudo apt-get update && sudo apt-get upgrade
 wget https://raw.githubusercontent.com/ntrexlab/ROS_INSTALL_SCRIPT/main/install_ros_melodic.sh&& chmod 755 ./install_ros_melodic.sh && bash ./install_ros_melodic.sh
 ```
 
+![](../../.gitbook/assets/ros1\_3.png)
+
+![](../../.gitbook/assets/ros1\_4.png)
+
 * [ ] STELLA N1 패키지 설치
 
 <!---->
@@ -57,6 +79,8 @@ wget https://raw.githubusercontent.com/ntrexlab/ROS_INSTALL_SCRIPT/main/install_
 ```
 sudo apt-get install ros-melodic-tf
 ```
+
+![](../../.gitbook/assets/ros1\_5.png)
 
 * [ ] STELLA N1 라이브러리 설치
 
@@ -71,6 +95,8 @@ cd ~/catkin_ws/src/STELLA_ODROID_N2/stella_teleop_bluetooth/src/
 chmod +x stella_teleop_bluetooth.py
 ```
 
+![](../../.gitbook/assets/ros1\_6.png)
+
 * [ ] 패키지 컴파일
 
 <!---->
@@ -81,6 +107,10 @@ chmod +x stella_teleop_bluetooth.py
 cd ~/catkin_ws/
 catkin_make
 ```
+
+![](../../.gitbook/assets/ros1\_7.png)
+
+![](../../.gitbook/assets/ros1\_8.png)
 
 * [ ] Serial 통신 설치
 
@@ -94,6 +124,8 @@ cd ~/catkin_ws/src/STELLA_JETSON_NANO/stella_bringup
 sh create_udev_rules.sh
 ls -la /dev/ 
 ```
+
+![](../../.gitbook/assets/ros1\_9.png)
 
 * Device 목록에 YDLIDAR, AHRS, MW, BT 항목이 생성됨을 확인합니다.
 
@@ -133,6 +165,6 @@ sudo ntpdate ntp.ubuntu.com
 * [ ] <mark style="color:blue;">**SSH를 이용하여 원격 접속 확인**</mark>
 
 ```
-(원격 PC에서)$ ssh ntrex@[Jetson Nano의 ip주소]
+(원격 PC에서)$ ssh odroid@[odroid의 ip주소]
 ```
 
