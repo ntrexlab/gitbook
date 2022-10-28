@@ -8,11 +8,10 @@
 * ROS 2가 필요하신 경우 하기의 링크에서 <mark style="color:red;">**.img 형식 이미지 파일을 설치합니다.**</mark>&#x20;
 * 기본 탑재된 Ubuntu 20.04 LTS의 초기 비밀번호는 1 입니다.  &#x20;
 * &#x20;<mark style="color:blue;">**하기의 링크 .img 형식 이미지 파일을 사용하시는 경우 SSH를 이용하여 원격 접속 확인만 진행하시면 됩니다.**</mark>&#x20;
-* 하기 주소에서 stella\_ubuntu\_20.04\_ros2.img 파일 다운 받으시면 됩니다.
 
 {% tabs %}
 {% tab title="사이트" %}
-[http://naver.me/5oibQBnf](http://naver.me/5oibQBnf)
+[http://gofile.me/4Z3Cs/N0cZJ5KIm](http://gofile.me/4Z3Cs/N0cZJ5KIm)
 {% endtab %}
 {% endtabs %}
 

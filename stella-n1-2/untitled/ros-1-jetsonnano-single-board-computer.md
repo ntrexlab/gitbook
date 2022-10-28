@@ -9,11 +9,10 @@
 * SD카드를 삽입하여 사용하시면 됩니다. &#x20;
 * <mark style="color:blue;">**제공된 SD카드 또는 하기의 링크 .img 형식 이미지 파일을 사용하시는 경우 하기의 네트워크 설정만 진행하시면 됩니다.**</mark>
 * OS 재 설치가 필요하신 경우 하기의 링크 .img 형식 이미지 파일을 설치하여 주시기 바랍니다.
-* 하기 주소에서 stella\_ubuntu\_18.04.img 파일 다운 받으시면 됩니다.
 
 {% tabs %}
 {% tab title="사이트" %}
-[http://naver.me/5oibQBnf](http://naver.me/5oibQBnf)
+[http://gofile.me/4Z3Cs/l7nqWxwdS](http://gofile.me/4Z3Cs/l7nqWxwdS)
 {% endtab %}
 {% endtabs %}
 

@@ -15,11 +15,10 @@ description: >-
 * SD카드를 삽입하여 사용하시면 됩니다. &#x20;
 * <mark style="color:blue;">**제공된 SD카드 또는 하기의 링크 .img 형식의 이미지 파일 사용하시는 경우 하기의 네트워크 설정만 진행하시면 됩니다.**</mark>
 * OS 재 설치가 필요하신 경우 하기의 링크에서 .img 형식 이미지 파일을 이용합니다.
-* 하기 주소에서 stella\_raspios\_buster.img 파일 다운 받으시면 됩니다.
 
 {% tabs %}
 {% tab title="STELLA N1 IMG" %}
-[http://naver.me/5oibQBnf](http://naver.me/5oibQBnf)
+[http://gofile.me/4Z3Cs/vQvsuL7mL](http://gofile.me/4Z3Cs/vQvsuL7mL)
 {% endtab %}
 {% endtabs %}
 
