@@ -19,7 +19,7 @@ description: >-
 
 {% tabs %}
 {% tab title="STELLA N1 IMG" %}
-[https://mybox.naver.com/share/list?shareKey=\_fRiLQ4OFBlOQhKIsUAu5LbcywA\_QHB7nXURRPrM673F9Ax17zMSWdBudLy3qavLDw%3D%3D](https://mybox.naver.com/share/list?shareKey=\_fRiLQ4OFBlOQhKIsUAu5LbcywA\_QHB7nXURRPrM673F9Ax17zMSWdBudLy3qavLDw%3D%3D)
+[http://naver.me/5oibQBnf](http://naver.me/5oibQBnf)
 {% endtab %}
 {% endtabs %}
 
