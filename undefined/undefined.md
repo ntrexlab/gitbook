@@ -29,7 +29,7 @@
 
 ![](../.gitbook/assets/md\_2.png)
 
-* Motor 1,2 Encoder 값을 확인한다. <정상값 Stella N1 540000, Stella N2 60000>.
+* Motor 1,2 Encoder 값을 확인한다. <정상값 Stella N1 54000, Stella N2 60000>.
 
 ![](../.gitbook/assets/md\_3.png)
 
@@ -67,7 +67,7 @@
 
 ![](../.gitbook/assets/md7.png)
 
-* Motor 1,2 Encoder(1) 값을 확인한다. Stella N1 540000, Stella N2 60000 이면 정상 파라미터 Write Configurations(2) 클릭 후 Save to Flash(3) 클릭합니다.
+* Motor 1,2 Encoder(1) 값을 확인한다. Stella N1 54000, Stella N2 60000 이면 정상 파라미터 Write Configurations(2) 클릭 후 Save to Flash(3) 클릭합니다.
 
 ![](../.gitbook/assets/md8.png)
 
