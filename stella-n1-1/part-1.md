@@ -1,8 +1,10 @@
 ---
-description: 부품은 조립 방법에 조립 구성품을 참고하시면됩니
+description: 부품은 조립 방법에 조립 구성품을 참고하시면 됩니다.
 ---
 
 # 조립 및 배선 part 1
+
+{% file src="../.gitbook/assets/STELLA N1 조립 메뉴얼 N2 추가버전.pdf" %}
 
 <figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
