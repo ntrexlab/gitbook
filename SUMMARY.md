@@ -57,7 +57,7 @@
 ## 부 록
 
 * [ROS1\_STELLA 라이브러리 업데이트](undefined/ros1\_stella/README.md)
-  * [Raspberry Pi 4](undefined/ros1\_stella/raspberry-pi-4.md)
+  * [ROS 1\_STELLA 라이브러리 업데이트](undefined/ros1\_stella/ros-1\_stella.md)
 * [App 이용하여 STELLA N1 구동](undefined/app-stella-n1/README.md)
   * [ROS 1 - App 이용하여 STELLA N1 구동](undefined/app-stella-n1/ros-1-app-stella-n1.md)
   * [ROS 2 - App 이용하여 STELLA N1 구동](undefined/app-stella-n1/ros-2-app-stella-n1.md)
