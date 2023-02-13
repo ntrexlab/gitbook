@@ -71,3 +71,4 @@
 * [모터 게인 확인 및 수정](undefined/undefined-1.md)
 * [AHRS 환경설정](undefined/ahrs.md)
 * [전원보드 배터리 컷 오프](undefined/undefined-1-1.md)
+* [이전 메뉴얼](undefined/undefined-2.md)
