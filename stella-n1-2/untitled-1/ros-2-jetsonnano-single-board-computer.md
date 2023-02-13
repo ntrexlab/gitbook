@@ -48,7 +48,7 @@ sudo apt update && sudo apt upgrade
 * 다음 명령어를 이용하여 Ubuntu 20.04 내 ROS2를 설치합니다.
 
 ```
-wget https://raw.githubusercontent.com/ntrexlab/ROS_INSTALL_SCRIPT/main/install_ros2_foxy.sh&& chmod 755 ./install_ros2_foxy.sh && bash ./install_ros2_foxy.sh
+wget https://raw.githubusercontent.com/ntrexlab/ROS_INSTALL_SCRIPT/main/install_ros2_foxy_n2.sh&& chmod 755 ./install_ros2_foxy_n2.sh && bash ./install_ros2_foxy_n2.sh
 ```
 
 ![](../../.gitbook/assets/ros2\_2.png)
