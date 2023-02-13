@@ -45,7 +45,7 @@ sudo apt-get update && sudo apt-get upgrade
 ```
 sudo apt-get update && sudo apt-get upgrade 명렁어 실행 시 
 Could not get lock /var/lib/apt/lists/lock - open (11: Resource temporarily unavailavle)
-발생 시 밑에 명령어 실
+발생 시 밑에 명령어 실행
 ```
 {% endhint %}
 

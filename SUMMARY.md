@@ -16,7 +16,10 @@
 
 * [STELLA N1 조립 방법](stella-n1-1/undefined-1.md)
 * [조립 및 배선 part 1](stella-n1-1/part-1.md)
-* [조립 및 배선 part 2](stella-n1-1/part-2.md)
+
+***
+
+* [조립 및 배선 part 2](part-2.md)
 
 ## STELLA N1 관련 설정 <a href="#stella-n1-2" id="stella-n1-2"></a>
 
