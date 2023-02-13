@@ -29,12 +29,12 @@
 * [Raspberry Pi(Single Board Computer) 설정](stella-n1-2/raspberry-pi-single-board-computer/README.md)
   * [ROS 1 - Raspberry Pi(Single Board Computer) 설정](stella-n1-2/raspberry-pi-single-board-computer/untitled-1.md)
   * [ROS 2 - Raspberry Pi(Single Board Computer) 설정](stella-n1-2/raspberry-pi-single-board-computer/untitled.md)
-* [Odroid N2+(Single Board Computer) 설정](stella-n1-2/untitled/README.md)
-  * [ROS 1 - Odroid N2+(Single Board Computer) 설정](stella-n1-2/untitled/ros-1-jetsonnano-single-board-computer.md)
-  * [ROS 2 - Odroid N2+(Single Board Computer) 설정](stella-n1-2/untitled/ros-2-jetsonnano-single-board-computer.md)
-* [JetsonNano(Single Board Computer) 설정](stella-n1-2/untitled-1/README.md)
-  * [ROS 1 - JetsonNano(Single Board Computer) 설정](stella-n1-2/untitled-1/ros-1-jetsonnano-single-board-computer.md)
-  * [ROS 2 - JetsonNano(Single Board Computer) 설정](stella-n1-2/untitled-1/ros-2-jetsonnano-single-board-computer.md)
+* [JetsonNano(Single Board Computer) 설정](stella-n1-2/untitled/README.md)
+  * [ROS 1 - JetsonNano(Single Board Computer) 설정](stella-n1-2/untitled/ros-1-jetsonnano-single-board-computer.md)
+  * [ROS 2 - JetsonNano(Single Board Computer) 설정](stella-n1-2/untitled/ros-2-jetsonnano-single-board-computer.md)
+* [Odroid N2+(Single Board Computer) 설정](stella-n1-2/untitled-1/README.md)
+  * [ROS 1 - Odroid N2+(Single Board Computer) 설정](stella-n1-2/untitled-1/ros-1-jetsonnano-single-board-computer.md)
+  * [ROS 2 - Odroid N2+(Single Board Computer) 설정](stella-n1-2/untitled-1/ros-2-jetsonnano-single-board-computer.md)
 
 ## STELLA N1 작동 <a href="#stella-n1-3" id="stella-n1-3"></a>
 

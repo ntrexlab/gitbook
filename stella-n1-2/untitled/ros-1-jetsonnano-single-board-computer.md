@@ -1,17 +1,15 @@
-# ROS 1 - Odroid N2+(Single Board Computer) 설정
-
-
+# ROS 1 - JetsonNano(Single Board Computer) 설정
 
 * [ ] &#x20;Single Board Computer 모델 확인하기
 
 <!---->
 
-* STELLA N1  –  Odroid N2+ 버전에는 Odroid N2+ SBC가 기본적으로 구성되어 있습니다. 해당 SBC도 원격 컴퓨터와 동일하게 ROS 및 STELLA 라이브러리 설정이 필요합니다.
-* STELLA N1 – Odroid N2+ 구매 시, 제공하는 Odroid N2+를 사용하실 경우 기본적으로 하기와 같은 과정이 전부 <mark style="color:red;">**작업된**</mark> <mark style="color:red;">**Ubuntu 18.04 LTS가 탑재된 SD 카드가 제공됩니다.**</mark>
+* STELLA N1 – Jetson Nano 버전에는 NVIDIA Jetson Nano SBC가 기본적으로 구성되어 있습니다. 해당 SBC도 원격 컴퓨터와 동일하게 ROS 및 STELLA 라이브러리 설정이 필요합니다.
+* STELLA N1 – Jetson Nano 구매 시, 제공하는 NVIDIA Jetson Nano를 사용하실 경우 기본적으로 하기와 같은 과정이 전부 <mark style="color:red;">**작업된**</mark> <mark style="color:red;">**Ubuntu 18.04 LTS가 탑재된 SD 카드가 제공됩니다.**</mark>
 * SD카드를 삽입하여 사용하시면 됩니다. &#x20;
 * <mark style="color:blue;">**제공된 SD카드 또는 하기의 링크 .img 형식 이미지 파일을 사용하시는 경우 하기의 네트워크 설정만 진행하시면 됩니다.**</mark>
 * OS 재 설치가 필요하신 경우 하기의 링크 .img 형식 이미지 파일을 설치하여 주시기 바랍니다.
-* 하기 주소에서 stella\_ubuntu\_mate\_18.04\_odroid\_n2.img 파일 다운 받으시면 됩니다.
+* 하기 주소에서 stella\_ubuntu\_18.04.img 파일 다운 받으시면 됩니다.
 
 {% tabs %}
 {% tab title="사이트" %}
@@ -19,9 +17,8 @@
 {% endtab %}
 {% endtabs %}
 
-* 기본 탑재된 Ubuntu 18.04 LTS의 초기비밀번호는 odroid 입니다.
+* 기본 탑재된 Ubuntu 18.04 LTS의 초기비밀번호는 1 입니다.
 * 저희가 제공하는 IMG 파일이 아닌 사용자께서 직접 설치를 하실 경우 하기의 과정을 참고하여 설치합니다.
-* 하기의 과정을 참고하여 설치하시는 경우 발생하는 문제에 대해 대응 어려운 점 양해 부탁드립니다.
 
 <!---->
 
@@ -29,62 +26,18 @@
 
 <!---->
 
-* STELLA 내 Odroid N2+에 Ubuntu 18.04를 설치합니다.&#x20;
+* STELLA 내 Jetson Nano에 Ubuntu 18.04를 설치합니다. 설치 방법은 하기의 링크를 참고하여 설치합니다.
 
-<!---->
+{% tabs %}
+{% tab title="사이트" %}
+[https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#intro	](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#intro)
+{% endtab %}
+{% endtabs %}
 
 * [ ] Ubuntu 18.04 설치 후 하기의 명령어를 통해 최신 버전으로 업데이트합니다.
 
 ```
-sudo apt update 
-```
-
-![](../../.gitbook/assets/ros1\_1.png)
-
-{% hint style="danger" %}
-```
-sudo apt update 명렁어 실행 시 
-Could not get lock /var/lib/apt/lists/lock - open (11: Resource temporarily unavailavle)
-발생 시 밑에 명령어 실행
-```
-{% endhint %}
-
-* update 에러 발생 시 (경로는 에러메시지 경로 동일)&#x20;
-
-```
-sudo rm /var/lib/apt/lists/* -vf
-```
-
-![](../../.gitbook/assets/ros1\_2.png)
-
-```
-sudo apt full-upgrade
-```
-
-* 재시작 전 자동로그인 설정
-
-```
-sudo nano /usr/share/lightdm/lightdm.conf.d/50-ubuntu-mate.conf
-```
-
-* Smart Mirror를 사용하려면 자동으로 로그인이 되어야  버튼을 클릭하는  번거로움을 줄일 수 있습니다.           &#x20;
-
-```
-sudo nano /usr/share/lightdm/lightdm.conf.d/50-ubuntu-mate.conf
-```
-
-{% hint style="info" %}
-해당 파일에 맨 밑에 아래의 코드를 추가 후 저장합니다.   &#x20;
-{% endhint %}
-
-```
-autologin=odroid
-```
-
-* 재시작합니다.   &#x20;
-
-```
-sudo reboot
+sudo apt-get update && sudo apt-get upgrade
 ```
 
 * [ ] Ubuntu 18.04 LTS 내 ROS 설치
@@ -97,10 +50,6 @@ sudo reboot
 wget https://raw.githubusercontent.com/ntrexlab/ROS_INSTALL_SCRIPT/main/install_ros_melodic.sh&& chmod 755 ./install_ros_melodic.sh && bash ./install_ros_melodic.sh
 ```
 
-![](../../.gitbook/assets/ros1\_3.png)
-
-![](../../.gitbook/assets/ros1\_4.png)
-
 * [ ] STELLA N1 패키지 설치
 
 <!---->
@@ -111,8 +60,6 @@ wget https://raw.githubusercontent.com/ntrexlab/ROS_INSTALL_SCRIPT/main/install_
 sudo apt-get install ros-melodic-tf
 ```
 
-![](../../.gitbook/assets/ros1\_5.png)
-
 * [ ] STELLA N1 라이브러리 설치
 
 <!---->
@@ -121,12 +68,10 @@ sudo apt-get install ros-melodic-tf
 
 ```
 cd ~/catkin_ws/src
-git clone https://github.com/ntrexlab/STELLA_ODROID_N2.git
-cd ~/catkin_ws/src/STELLA_ODROID_N2/stella_teleop_bluetooth/src/
+git clone https://github.com/ntrexlab/STELLA_JETSON_NANO.git
+cd ~/catkin_ws/src/STELLA_JETSON_NANO/stella_teleop_bluetooth/src/
 chmod +x stella_teleop_bluetooth.py
 ```
-
-![](../../.gitbook/assets/ros1\_6.png)
 
 * [ ] 패키지 컴파일
 
@@ -138,10 +83,6 @@ chmod +x stella_teleop_bluetooth.py
 cd ~/catkin_ws/
 catkin_make
 ```
-
-![](../../.gitbook/assets/ros1\_7.png)
-
-![](../../.gitbook/assets/ros1\_8.png)
 
 * [ ] Serial 통신 설치
 
@@ -155,8 +96,6 @@ cd ~/catkin_ws/src/STELLA_JETSON_NANO/stella_bringup
 sh create_udev_rules.sh
 ls -la /dev/ 
 ```
-
-![](../../.gitbook/assets/ros1\_9.png)
 
 * Device 목록에 YDLIDAR, AHRS, MW, BT 항목이 생성됨을 확인합니다.
 
@@ -196,6 +135,6 @@ sudo ntpdate ntp.ubuntu.com
 * [ ] <mark style="color:blue;">**SSH를 이용하여 원격 접속 확인**</mark>
 
 ```
-(원격 PC에서)$ ssh odroid@[odroid의 ip주소]
+(원격 PC에서)$ ssh ntrex@[Jetson Nano의 ip주소]
 ```
 

@@ -62,8 +62,8 @@ wget https://raw.githubusercontent.com/ntrexlab/ROS_INSTALL_SCRIPT/main/install_
 
 ```
 cd ~/colcon_ws/src/
-git clone https://github.com/ntrexlab/STELLA_N1_PI_X4_ROS2_v2.0.git
-cd ~/colcon_ws/src/STELLA_N1_PI_X4_ROS2_v2.0/stella_teleop_bluetooth/stella_teleop_bluetooth/
+git clone https://github.com/ntrexlab/STELLA_RASPBERRYPI_ROS2.git
+cd ~/colcon_ws/src/STELLA_RASPBERRYPI_ROS2/stella_teleop_bluetooth/stella_teleop_bluetooth/
 chmod +x stella_teleop_bluetooth.py
 ```
 
@@ -86,7 +86,7 @@ colcon build --symlink-install
 * 하기의 명령어를 입력하여 USB 포트 설정합니다.
 
 ```
-cd ~/colcon_ws/src/STELLA_N1_PI_X4_ROS2_v2.0/stella_bringup
+cd ~/colcon_ws/src/STELLA_RASPBERRYPI_ROS2/stella_bringup
 sh create_udev_rules.sh
 ls -la /dev/ 
 ```

@@ -59,13 +59,13 @@ sudo apt-get install ros-melodic-teleop-twist-keyboard ros-melodic-amcl ros-melo
 
 ```
 cd ~/catkin_ws/src/
-git clone https://github.com/ntrexlab/STELLA_N1_REMOTEPC_X4_ROS1_v2.0.git
+git clone https://github.com/ntrexlab/STELLA_REMOTE_PC.git
 ```
 
 * <mark style="color:purple;">**새로 터미널  실행 후**</mark> 다운로드 된 라이브러리는 catkin\_make를 통해 컴파일 합니다.
 
 ```
-cd ~/catkin_ws/src/STELLA_N1_REMOTEPC_X4_ROS1_v2.0/stella_teleop/src/
+cd ~/catkin_ws/src/STELLA_REMOTE_PC/stella_teleop/src/
 chmod +x stella_teleop_key.py
 cd ~/catkin_ws
 catkin_make
