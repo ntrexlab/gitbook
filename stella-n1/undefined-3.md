@@ -20,15 +20,11 @@
 |    정격 전류(A)   |   2.3  |
 |  회전자 구속전류(A)  |    7   |
 
-* [ ] MW-AHRSv1
 
-{% tabs %}
-{% tab title="AHRS 상품 페이지" %}
-[https://smartstore.naver.com/phonepong/products/5780016776](https://smartstore.naver.com/phonepong/products/5780016776)
-{% endtab %}
-{% endtabs %}
 
-![](../.gitbook/assets/007.png)
+* [ ] MW-AHRSv2U
+
+&#x20;                                                              <img src="../.gitbook/assets/image.png" alt="" data-size="original">
 
 * 두께 1.6mm의 알루미늄 케이스
 * 칼만 필터를 이용한 가속도와 자이로 센서 융합
@@ -39,10 +35,6 @@
 * 크기(L, W, H): 29.6mm, 31.4mm, 10mm
 * 인터페이스 : RS232 / CAN
 * 가속도, 각속도, 각도, 자기, 온도 데이터 출력
-
-
-
-* [ ] STELLA N1 전원보드
 
 ![](../.gitbook/assets/pinmap.png)
 

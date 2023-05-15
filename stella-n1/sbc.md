@@ -14,4 +14,4 @@
 
 * Odroid N2+&#x20;
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (15).png>)

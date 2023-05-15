@@ -89,7 +89,7 @@ ex) ssh ntrex@192.168.0.xxx 입력 후 패스워드 입력
 roslaunch stella_camera stella_camera.launch
 ```
 
-* <mark style="color:green;">**원격PC 새로운 터미널에서**</mark>**  **<mark style="color:red;">****</mark> camera 패키지를 실행합니다.
+* <mark style="color:green;">**원격PC 새로운 터미널에서**</mark>** ** camera 패키지를 실행합니다.
 
 ```
 rqt_image_view /camera

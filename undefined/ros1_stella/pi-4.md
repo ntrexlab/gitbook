@@ -43,7 +43,7 @@ cd ~/catkin_ws/src/STELLA_N1_PI_X4_ROS1_v2.0/stella_bringupsh create_udev_rules.
 sudo rm -r ~/catkin_ws/src/STELLA_REMOTE_PC
 ```
 
-* <mark style="color:blue;">**위**</mark>** **<mark style="color:red;">****</mark>** **<mark style="color:blue;">**원격 PC 터미널**</mark>에서 업데이트된 라이브러리를 다운로드합니다.
+* <mark style="color:blue;">**위**</mark> <mark style="color:blue;">**원격 PC 터미널**</mark>에서 업데이트된 라이브러리를 다운로드합니다.
 
 ```
 cd ~/catkin_ws/src
