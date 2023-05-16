@@ -4,7 +4,7 @@
 
 {% tabs %}
 {% tab title="모터 상품 페이지" %}
-[https://smartstore.naver.com/phonepong/products/5897519502](https://smartstore.naver.com/phonepong/products/5897519502)
+[https://smartstore.naver.com/idearobot/products/5897723025](https://smartstore.naver.com/idearobot/products/5897723025)
 {% endtab %}
 {% endtabs %}
 
