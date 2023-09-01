@@ -6,6 +6,12 @@ description: >-
 
 # ROS 1 - Raspberry Pi(Single Board Computer) 설정
 
+
+
+{% hint style="danger" %}
+2023년 9월 1일 이후로는 ROS1의 IMG 이상 버전에 대한 기술 지원이 제한적이오니 이 점 양해 부탁 드립니다. 설치 스크립트를 사용하여 설치 중 오류가 발생할 경우, 별도로 제공되는 IMG 파일을 활용해 주시기 바랍니다.
+{% endhint %}
+
 * [ ] single Board Computer 모델 확인하기
 
 <!---->
