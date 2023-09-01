@@ -1,5 +1,7 @@
 # ROS 1 - JetsonNano(Single Board Computer) 설정
 
+2023년 9월 1일 이후로는 Jetson Nano 버전에 대한 기술 지원이 제한적이오니 이 점 양해 부탁 드립니다. 별도로 제공되는 IMG 파일을 활용해 주시기 바랍니다.
+
 * [ ] &#x20;Single Board Computer 모델 확인하기
 
 <!---->
