@@ -34,7 +34,7 @@ cd ~/catkin_ws/catkin_make
 * <mark style="color:red;">**위 빨간 글 SSH 접속 터미널**</mark>에서 Serial 통신설정
 
 ```
-cd ~/catkin_ws/src/STELLA_N1_PI_X4_ROS1_v2.0/stella_bringupsh create_udev_rules.shls -la /dev
+cd ~/catkin_ws/src/STELLA_N1_PI_X4_ROS1_v2.0/stella_bringupsh create_udev_rules.sh ls -la /dev
 ```
 
 * <mark style="color:blue;">**새로운 원격 PC 터미널**</mark>에서 기존 라이브러리를 삭제합니다.
