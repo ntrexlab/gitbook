@@ -18,7 +18,7 @@ description: >-
 
 {% tabs %}
 {% tab title="STELLA N1 IMG" %}
-[http://naver.me/5oibQBnf](http://naver.me/5oibQBnf)
+[http://naver.me/FPBtgJ8l](http://naver.me/FPBtgJ8l)
 {% endtab %}
 {% endtabs %}
 
