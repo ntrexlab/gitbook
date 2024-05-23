@@ -12,7 +12,7 @@
 
 {% tabs %}
 {% tab title="사이트" %}
-[http://naver.me/5oibQBnf](http://naver.me/5oibQBnf)
+[http://naver.me/FPBtgJ8l](http://naver.me/FPBtgJ8l)
 {% endtab %}
 {% endtabs %}
 
